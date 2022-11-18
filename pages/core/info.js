@@ -627,22 +627,22 @@ const thongTinTiem1 = {
   const serviceList1 = {
     service1 : "Acrylic Fullset with normal nail polish",
     service1Time : "45 mins",
-    service1Price : "28",
+    service1Price : "30",
     service1Description : "Nail extensions help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
   
     service2 : "Acrylic Infill with normal nail polish",
     service2Time : "35 mins",
-    service2Price : "20",
+    service2Price : "25",
     service2Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
   
     service3 : "Acrylic Full Set with Shellac",
     service3Time : "1 hr",
-    service3Price : "35",
+    service3Price : "36",
     service3Description : "Nail extensions help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
   
     service4 : "Acrylic Infill with Shellac",
     service4Time : "45 mins",
-    service4Price : "28",
+    service4Price : "30",
     service4Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
     
     service5 : "Gel Powder Full Set with normal nail polish",
@@ -657,27 +657,27 @@ const thongTinTiem1 = {
   
     service7 : "Full Set Pink & White",
     service7Time : "45 mins",
-    service7Price : "35",
+    service7Price : "40",
     service7Description : "",
   
     service8 : "Infill Pink & White",
     service8Time : "45 mins",
-    service8Price : "30",
+    service8Price : "35",
     service8Description : "",
   
     service9 : "Full Set Ombre",
     service9Time : "45 mins",
-    service9Price : "38",
+    service9Price : "40",
     service9Description : "Nail extensions help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
   
     service10 : "Infill Ombre",
     service10Time : "45 mins",
-    service10Price : "32",
+    service10Price : "35",
     service10Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
   
     service11 : "Full Set Colour Powder",
     service11Time : "45 mins",
-    service11Price : "32",
+    service11Price : "40",
     service11Description : "Nail extensions help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
   
     service12 : "Infill Colour Powder (Same Colour)",
@@ -727,17 +727,17 @@ const thongTinTiem1 = {
   
     service21 : "Take off Powder + Shellac",
     service21Time : "30 mins",
-    service21Price : "28",
+    service21Price : "30",
     service21Description : "Take off then Shellac",
   
     service22 : "Take off Powder + Manicure + Shellac",
     service22Time : "50 mins",
-    service22Price : "32",
+    service22Price : "35",
     service22Description : "Take off then Manicure and then Shellac",
   
     service23 : "Dipping Powder SNS (from)",
     service23Time : "45 mins",
-    service23Price : "32",
+    service23Price : "36",
     service23Description : "SNS Dipping Powder creates a stronger polish finish which can help strengthen brittle or weak nails.",
   
     service24 : "BIAB buider gel Fullset",
@@ -777,7 +777,7 @@ const thongTinTiem1 = {
 
     service31 : "Take off Ombre and Redone Ombre Fullset",
     service31Time : "1 hr",
-    service31Price : "42",
+    service31Price : "45",
     service31Description : "",
 
     service32 : "Dipping Powder SNS infill",
@@ -787,39 +787,94 @@ const thongTinTiem1 = {
 
     service33 : "Take off and Redone Dipping Powder SNS",
     service33Time : "1 hr",
-    service33Price : "35",
+    service33Price : "40",
     service33Description : "SNS Dipping Powder creates a stronger polish finish which can help strengthen brittle or weak nails.",
 
     service34 : "Take off and Redone Acrylic Fullset on Feet with normal nail polish",
     service34Time : "1 hr",
-    service34Price : "38",
+    service34Price : "40",
     service34Description : "",
 
     service35 : "Take off and Redone Acrylic Fullset on Feet with Shellac",
     service35Time : "1 hr 15 mins",
-    service35Price : "43",
+    service35Price : "45",
     service35Description : "",
 
-    service36 : "Take off Powder and Manicure",
+    service36 : "Take off Powder and Manicure with normal polish",
     service36Time : "35 mins",
-    service36Price : "20",
+    service36Price : "25",
     service36Description : "Take off powder and then do manicure",
-  }; 
+
+    service37 : "Take off colour Powder and Redone a Newset",
+    servicce37Time : "60 mins",
+    service37Price : "45",
+    service37Description : "",
+
+    service38 : "Full set Acrylic French Tip",
+    service38Time : "45 mins",
+    service38Price : "40",
+    service38Description : "",
+
+    service39 : "Infill Acrylic French Tip",
+    service39Time : "45 mins",
+    service39Price : "35",
+    service39Description : "",
+
+    service40 : "Take off Acrylic Frech Tip and Redone Full set Acrylic French Tip",
+    service40Time : "60 mins",
+    service40Price : "45",
+    service40Description : "",
+    
+    service41 : "Take off Pink & White and Redone a Newset",
+    service41Time : "60 mins",
+    service41Price : "45",
+    service41Description : "",
+
+    service42 : "Take off Powder and Polish ",
+    service42Time : "30 mins",
+    service42Price : "20",
+    service42Description : "Take off then normal polish",
+
+    service43 : "XXL Long nails extra",
+    service43Time : "",
+    service43Price : "15",
+    service43Description : "",
+
+    service44 : "XL Long nails extra",
+    service44Time : "",
+    service44Price : "10",
+    service44Description : "",
+
+    service45 : "Take off Powder and Pedicure with normal polish",
+    service45Time : "35 mins",
+    service45Price : "30",
+    service45Description : "",
+
+    service46 : "Take off Powder and Pedicure with gel polich",
+    service46Time : "35 mins",
+    service46Price : "35",
+    service46Description : "",
+
+    service47 : "Infill Colour Powder",
+    service47Time : "45 mins",
+    service47Price : "35",
+    service47Description : "",
+    }; 
   
   const serviceList2 = {
     service1 : "Nail shape with Shellac nails on hand",
     service1Time : "30 mins",
-    service1Price : "20",
+    service1Price : "22",
     service1Description : "",
   
     service2 : "Nail shape with Shellac nails on feet",
     service2Time : "30 mins",
-    service2Price : "20",
+    service2Price : "22",
     service2Description : "",
   
     service3 : "Manicure Shellac",
     service3Time : "40 mins",
-    service3Price : "28",
+    service3Price : "30",
     service3Description : "Manicures are a difficult art to master. No matter how great they look when finished, they seem to always chip within days, if not in a matter of hours. Enter the Gel nail manicure - a groundbreaking technique that uses gel polishes that get 'cured' under UV lights. The result? Shiny, strong nails for weeks and no drying time!",
   
     service4 : "Pedicure Shellac",
@@ -829,7 +884,7 @@ const thongTinTiem1 = {
   
     service5 : "Gel Polish Manicure & Pedicure",
     service5Time : "1 hr 25 mins",
-    service5Price : "58",
+    service5Price : "60",
     service5Description : "Manicure includes massage, cuticle, shaping, file, polish and moisturiser. Pedicure includes scrub, dead skin, cuticle, massage, moisturise, shape, file and polish. Shellac pedicure and manicure lasts up to two weeks, it’s well worth the wait.",
   
     service6 : "Take off shellac and Redone Gel Polish on Hand",
@@ -846,17 +901,28 @@ const thongTinTiem1 = {
     service8Time : "20 mins",
     service8Price : "8",
     service8Description : "Just take off shellac",
+
+    service9 : "Take off shellac and Redone Normal Polish on Hand",
+    service9Time : "30 mins",
+    service9Price : "20",
+    service9Description : "",
+
+    service10 : "Take off shellac and Redone Normal Polish on Feet",
+    service10Time : "40 mins",
+    service10Price : "20",
+    service10Description : "",
+
   };
   
   const serviceList3 = {
     service1 : "Manicure with normal polish",
     service1Time : "30 mins",
-    service1Price : "18",
+    service1Price : "20",
     service1Description : "A classic manicure is all you need to take great care of your hands and nails. Includes massage, cuticle, shaping, file, polish and moisturiser.",
   
     service2 : "Pedicure with normal polish",
     service2Time : "40 mins",
-    service2Price : "28",
+    service2Price : "30",
     service2Description : "A classic pedicure is all you need to take great care of your feet and nails. Includes scrub, dead skin, cuticle, massage, moisturise, shape, file and polish.",
     
     service3 : "Luxury Pedicure",
@@ -866,7 +932,7 @@ const thongTinTiem1 = {
     
     service4 : "Manicure & Pedicure with normal polish",
     service4Time : "1 hr 15 mins",
-    service4Price : "43",
+    service4Price : "48",
     service4Description : "Manicure includes massage, cuticle, shaping, file, polish and moisturiser. Pedicure includes scrub, dead skin, cuticle, massage, moisturise, shape, file and polish.",
   
     service5 : "Men's Manicure & Pedicure",
@@ -876,7 +942,7 @@ const thongTinTiem1 = {
   
     service6 : "Shape & paint on hands",
     service6Time : "15 mins",
-    service6Price : "12",
+    service6Price : "15",
     service6Description : "",
   
     service7 : "Shape & paint on toes",
@@ -964,7 +1030,7 @@ const thongTinTiem1 = {
   const serviceList5 = {
     service1 : "Nail Design (from)",
     service1Time : "",
-    service1Price : "3",
+    service1Price : "5",
     service1Description : "",
   
     service2 : "Diamond Crystal x10",
@@ -976,12 +1042,18 @@ const thongTinTiem1 = {
     service3Time : "",
     service3Price : "5",
     service3Description : "",
+
+    service4 : "Three colours/five colours",
+    service4Time : "",
+    service4Price : "5",
+    service4Description : "",
+
   }; 
   
   const serviceList6 = {
     service1 : "Eyebrow Shape",
     service1Time : "15 mins",
-    service1Price : "5",
+    service1Price : "10",
     service1Description : "",
   
     service2 : "Lip waxing",
@@ -996,12 +1068,12 @@ const thongTinTiem1 = {
   
     service4 : "Under arm waxing",
     service4Time : "15 mins",
-    service4Price : "5",
+    service4Price : "10",
     service4Description : "",
   
     service5 : "Bikini line",
     service5Time : "20 mins",
-    service5Price : "15",
+    service5Price : "30",
     service5Description : "",
   
     service6 : "Brazilian waxing",
@@ -1016,22 +1088,22 @@ const thongTinTiem1 = {
   
     service8 : "Full leg waxing",
     service8Time : "20 mins",
-    service8Price : "30",
+    service8Price : "35",
     service8Description : "",
   
     service9 : "Half leg waxing",
     service9Time : "15 mins",
-    service9Price : "20",
+    service9Price : "24",
     service9Description : "",
   
     service10 : "Full arm waxing",
     service10Time : "20 mins",
-    service10Price : "25",
+    service10Price : "20",
     service10Description : "",
   
     service11 : "Half arm waxing",
     service11Time : "15 mins",
-    service11Price : "15",
+    service11Price : "12",
     service11Description : "",
   
     service12 : "Eye - Last Lift With Tinting",
@@ -1039,10 +1111,10 @@ const thongTinTiem1 = {
     service12Price : "40",
     service12Description : "PATCH TEST 24 HOURS PRIOR",
   
-    service13 : "Eyebrow tinting / Eyelash tinting",
+    service13 : "Eyebrow tinting ",
     service13Time : "20 mins",
-    service13Price : "10",
-    service13Description : "PATCH TEST 24 HOURS PRIOR",
+    service13Price : "12",
+    service13Description : "",
   
     service14 : "Eyebrow THREADING",
     service14Time : "15 mins",
@@ -1058,22 +1130,55 @@ const thongTinTiem1 = {
     service16Time : "15 mins",
     service16Price : "8",
     service16Description : "",
+
+    service17 : "Eyelash tinting",
+    service17Time : "20 mins",
+    service17Price : "10",
+    service17Description : "",
+
+    service18 : "Henna eyebrows",
+    service18Time : "15 mins",
+    service18Price : "25",
+    service18Description: "",
+
+    service19 : "Face waxing",
+    service19Time : "20 mins",
+    service19Price : "15",
+    service19Description : "",
+
+    service20 : "Upper lip or chin",
+    service20Time : "15 mins",
+    service20Price : "6",
+    service20Description : "",
+
+    service21 : "Upper lip and chin",
+    service21Time : "30 mins",
+    service21Price : "10",
+    service21Description : "",
+    
+    service22 : "Bikini waxing",
+    service22Time : "20 mins",
+    service22Price : "35",
+    service22Description : "",
+
+
+
   };
 
   const serviceList7 = {
     service1 : "AgeLoc Moisturzing Refresh Mask",
     service1Time : "30 mins",
-    service1Price : "30",
+    service1Price : "35",
     service1Description : "Treat yourself to a refreshing mask that will deep cleanse, exfoliate and moisturise your facial tissues leaving you with a rejuvenated look",
   
     service2 : "AgeLoc Refreshing Mask for Oily Skin",
     service2Time : "40 mins",
-    service2Price : "40",
+    service2Price : "45",
     service2Description : "Alternatively, if you suffer from oily skin, treat yourself a refreshing face mask that will deep cleanse and remove excessive oil on from your facial tissues, leaving your skin a clean, balanced structure and a healthy looking.",
 
     service3 : "AgeLoc Face Lift",
     service3Time : "50 mins",
-    service3Price : "60",
+    service3Price : "55",
     service3Description : "To exfoliate dead skin, lift and tighten the facial for a firmer, more youthful appearance. We use AgeLoc Cleanse & Tone",
 
     service4 : "AgeLoc Anti Aging Facial",
