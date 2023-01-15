@@ -843,7 +843,11 @@ const images = {
     service1 : "Acrylic Fullset with normal nail polish",
     service1Time : "45 mins",
     service1Price : "30",
+<<<<<<< HEAD
     service1Description : "Nail extensions help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
+=======
+    service1Description : "Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
+>>>>>>> b977f9878ad50ecbe469ece39cd9667a1ee3648d
   
     service2 : "Acrylic Infill with normal nail polish",
     service2Time : "35 mins",
@@ -853,7 +857,11 @@ const images = {
     service3 : "Acrylic Full Set with Shellac",
     service3Time : "1 hr",
     service3Price : "36",
+<<<<<<< HEAD
     service3Description : "Nail extensions help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
+=======
+    service3Description : "Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
+>>>>>>> b977f9878ad50ecbe469ece39cd9667a1ee3648d
   
     service4 : "Acrylic Infill with Shellac",
     service4Time : "45 mins",
@@ -863,7 +871,7 @@ const images = {
     service5 : "Gel Powder Full Set with normal nail polish",
     service5Time : "45 mins",
     service5Price : "28",
-    service5Description : "Nail extensions help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
+    service5Description : "Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
   
     service6 : "Gel Powder Infill with normal nail polish",
     service6Time : "45 mins",
@@ -873,7 +881,11 @@ const images = {
     service7 : "Full Set Pink & White",
     service7Time : "45 mins",
     service7Price : "40",
+<<<<<<< HEAD
     service7Description : "",
+=======
+    service7Description : "Prepare to take all the compliments you’re lately getting. We’ve just added a new extension option for our clients: Pink and White! Chances are you know someone who loves the look, because it’s been trending for a while now. Now, with our " + seoKeyword.seoKeyword2 +" making it possible to infuse this unconventional color into your look – we’ve opened up an entire new world of possibilities.",
+>>>>>>> b977f9878ad50ecbe469ece39cd9667a1ee3648d
   
     service8 : "Infill Pink & White",
     service8Time : "45 mins",
@@ -883,7 +895,13 @@ const images = {
     service9 : "Full Set Ombre",
     service9Time : "45 mins",
     service9Price : "40",
+<<<<<<< HEAD
     service9Description : "Nail extensions help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
+=======
+    service9Description : "You could be the Queen of the Ombre nails, with the right technique. The technicians at our " + seoKeyword.seoKeyword2 + " will masterfully blend one color into another, creating a unique and beautiful look, and adding it to your finger tips.",
+
+    
+>>>>>>> b977f9878ad50ecbe469ece39cd9667a1ee3648d
   
     service10 : "Infill Ombre",
     service10Time : "45 mins",
@@ -893,7 +911,11 @@ const images = {
     service11 : "Full Set Colour Powder",
     service11Time : "45 mins",
     service11Price : "40",
+<<<<<<< HEAD
     service11Description : "Nail extensions help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
+=======
+    service11Description : "Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
+>>>>>>> b977f9878ad50ecbe469ece39cd9667a1ee3648d
   
     service12 : "Infill Colour Powder (Same Colour)",
     service12Time : "45 mins",
@@ -908,7 +930,7 @@ const images = {
     service14 : "Acrylic Fullset on Feet with normal nail polish",
     service14Time : "45 mins",
     service14Price : "35",
-    service14Description : "",
+    service14Description : "An acrylic extension on your toes is just the thing to give yourself a little extra pampering. Whether you just want to do something new for your nails or you’ve been looking for an excuse to treat yo-self. This could be a great option for you",
   
     service15 : "Acrylic Infill on Feet with normal nail polish",
     service15Time : "45 mins",
@@ -918,7 +940,7 @@ const images = {
     service16 : "Acrylic Fullset on Feet with Shellac",
     service16Time : "1 hr",
     service16Price : "40",
-    service16Description : "",
+    service16Description : "With this extension on your feet, you will have them look absolutely amazing again. Get those feet painted with colours that are bright and pleasing to the eye. And when you're done, give them some extra love with a protective layer of Shellac",
   
     service17 : "Acrylic Infill on Feet with Shellac",
     service17Time : "1 hr",
@@ -1158,12 +1180,16 @@ const images = {
     service6 : "Shape & paint on hands",
     service6Time : "15 mins",
     service6Price : "15",
+<<<<<<< HEAD
     service6Description : "",
+=======
+    service6Description : "Want to show off your individuality? Come to " + changedInfo.businessName + " to paint on your nails with designs from experts at our " + seoKeyword.seoKeyword1,
+>>>>>>> b977f9878ad50ecbe469ece39cd9667a1ee3648d
   
     service7 : "Shape & paint on toes",
     service7Time : "15 mins",
     service7Price : "15",
-    service7Description : "",
+    service7Description : "Fancy something a little different? Head into our " + seoKeyword.seoKeyword2 + " for new ways to choose the perfect colour for your toes. Pick from a range of colours or go for an intricate design on your toe nails.",
 
     service8 : "Smoothing Pedicure with normal polish",
     service8Time : "45 mins",
@@ -1246,7 +1272,11 @@ const images = {
     service1 : "Nail Design (from)",
     service1Time : "",
     service1Price : "5",
+<<<<<<< HEAD
     service1Description : "",
+=======
+    service1Description : "The best looking nails are made with the best nail care services from our " + seoKeyword.seoKeyword1 +". Caring for your surface is the key to keeping it looking good for as long as possible. So come on over and treat yourself today.⁣",
+>>>>>>> b977f9878ad50ecbe469ece39cd9667a1ee3648d
   
     service2 : "Diamond Crystal x10",
     service2Time : "",
@@ -1375,9 +1405,12 @@ const images = {
     service22Time : "20 mins",
     service22Price : "35",
     service22Description : "",
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> b977f9878ad50ecbe469ece39cd9667a1ee3648d
   };
 
   const serviceList7 = {
