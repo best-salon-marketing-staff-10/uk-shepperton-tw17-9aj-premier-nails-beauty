@@ -11,14 +11,15 @@ import Service3 from '/pages/services/service-3.js';
 import Service4 from '/pages/services/service-4.js';
 import Service5 from '/pages/services/service-5.js';
 import Service6 from '/pages/services/service-6.js';
-import { Carousel } from 'react-bootstrap';
+import Service7 from '/pages/services/service-7';
 import NhanManh1 from '/pages/Components/dong-vien/nhan-manh-1';
 import NhanManh2 from '/pages/Components/dong-vien/nhan-manh-2';
 import NhanManh3 from '/pages/Components/dong-vien/nhan-manh-3';
 import NhanManh4 from '/pages/Components/dong-vien/nhan-manh-4';
 import Offers from '/pages/Components/offers/offers';
-import { thongTinTiem1 } from '/pages/core/info';
-import { thongTinTiem2 } from '/pages/core/info';
+import { imageAlt } from '/pages/core/info';
+import { pageContent } from '/pages/core/info';
+import { images } from '/pages/core/info';
 
 export default function DesktopContent(){
     return(
@@ -26,11 +27,10 @@ export default function DesktopContent(){
             <div className="desktop-content">
 
                 <div className="first-screen-block">
-                    <img className="first-screen-block-anh" alt="" 
-                            src={thongTinTiem1.desktopCarouselImage1} />
+                    <img className="first-screen-block-anh" alt={imageAlt.desktopCarouselImage1Alt} src={images.desktopCarouselImage1} />
                     <div className="first-screen-block-bottom">
                         <h1 className="first-screen-block-title">
-                            {thongTinTiem2.carouselHeading}
+                            {pageContent.carouselHeading}
                         </h1>
                         <div className="button">
                             <Button1 />
@@ -91,6 +91,11 @@ export default function DesktopContent(){
                     <div className="services-list-6">
                         <div className="service-container">
                             <Service6 />
+                        </div>
+                    </div>
+                    <div className="services-list-7">
+                        <div className="service-container">
+                            <Service7 />
                         </div>
                     </div>
                 </div>

@@ -1,11 +1,4 @@
-import { thongTinTiem1 } from '/pages/core/info';
-import { thongTinTiem2 } from '/pages/core/info';
-import { serviceList1 } from '/pages/core/info';
-import { serviceList2 } from '/pages/core/info';
-import { serviceList3 } from '/pages/core/info';
 import { serviceList4 } from '/pages/core/info';
-import { serviceList5 } from '/pages/core/info';
-import { serviceList6 } from '/pages/core/info';
 
 export default function Service4PriceList(){
     return(

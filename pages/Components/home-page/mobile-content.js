@@ -12,25 +12,26 @@ import Service3 from '/pages/services/service-3';
 import Service4 from '/pages/services/service-4';
 import Service5 from '/pages/services/service-5';
 import Service6 from '/pages/services/service-6';
-import Carousel from 'react-bootstrap/Carousel'
+import Service7 from '/pages/services/service-7';
 import NhanManh1 from '/pages/Components/dong-vien/nhan-manh-1';
 import NhanManh2 from '/pages/Components/dong-vien/nhan-manh-2';
 import NhanManh3 from '/pages/Components/dong-vien/nhan-manh-3';
 import NhanManh4 from '/pages/Components/dong-vien/nhan-manh-4';
 import Offers from '/pages/Components/offers/offers';
-import { thongTinTiem1 } from '/pages/core/info';
-import { thongTinTiem2 } from '/pages/core/info';
+import { imageAlt } from '/pages/core/info';
+import { pageContent } from '/pages/core/info';
+import { images } from '/pages/core/info';
 
 export default function MobileContent(){
     return(
         <>
             <div className="mobile-content">
                 <div className="first-screen-block">
-                    <img className="first-screen-block-anh" alt={thongTinTiem2.mobileCarouselImage1Alt} 
-                            src={thongTinTiem1.mobileCarouselImage1} />
+                    <img className="first-screen-block-anh" alt={imageAlt.mobileCarouselImage1Alt} 
+                            src={images.mobileCarouselImage1} />
                     <div className="first-screen-block-bottom">
                         <h1 className="first-screen-block-title">
-                            {thongTinTiem2.carouselHeading}
+                            {pageContent.carouselHeading}
                         </h1>
                         <div className="button">
                             <Button1 />
@@ -90,6 +91,11 @@ export default function MobileContent(){
                     <div className="services-list-6">
                         <div className="service-container">
                             <Service6 />
+                        </div>
+                    </div>
+                    <div className="services-list-7">
+                        <div className="service-container">
+                            <Service7 />
                         </div>
                     </div>
                 </div>

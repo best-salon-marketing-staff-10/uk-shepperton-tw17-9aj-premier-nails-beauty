@@ -9,8 +9,8 @@ import CustomerReview from '/pages/Components/customer-review.js'
 import OurStory from '/pages/about-us/our-story'
 import Carousel from 'react-bootstrap/Carousel'
 import "/node_modules/bootstrap/dist/css/bootstrap.css"
-import { thongTinTiem1 } from '/pages/core/info';
-import { thongTinTiem2 } from '/pages/core/info';
+import { images } from '/pages/core/info';
+import { imageAlt } from '/pages/core/info';
 
 
 
@@ -24,17 +24,17 @@ export default function DesktopContent(){
                     <Carousel fade={true} controls={false} interval="1800">
                         <Carousel.Item>
                             <div className="desktop-about-us-carousel-image">
-                                <img className="d-block w-100" alt={thongTinTiem2.desktopAboutUsImage1Alt} src={thongTinTiem1.desktopAboutUsImage1} />
+                                <img className="d-block w-100" alt={imageAlt.desktopAboutUsImage1Alt} src={images.desktopAboutUsImage1} />
                             </div>
                         </Carousel.Item>
                         <Carousel.Item>
                             <div className="desktop-about-us-carousel-image">
-                                <img className="d-block w-100" alt={thongTinTiem2.desktopAboutUsImage2Alt} src={thongTinTiem1.desktopAboutUsImage2} />
+                                <img className="d-block w-100" alt={imageAlt.desktopAboutUsImage2Alt} src={images.desktopAboutUsImage2} />
                             </div>
                         </Carousel.Item>
                         <Carousel.Item>
                             <div className="desktop-about-us-carousel-image">
-                                <img className="d-block w-100" alt={thongTinTiem2.desktopAboutUsImage3Alt} src={thongTinTiem1.desktopAboutUsImage3} />
+                                <img className="d-block w-100" alt={imageAlt.desktopAboutUsImage3Alt} src={images.desktopAboutUsImage3} />
                             </div>
                         </Carousel.Item>
                     </Carousel> 
@@ -52,12 +52,12 @@ export default function DesktopContent(){
                             <DongVien1 />
                         </div>
                         <div className="desktop-about-us-dong-vien-image">
-                            <img alt={thongTinTiem1.desktopAboutUsDongVienImage1Alt} src={thongTinTiem1.desktopAboutUsDongVienImage1} />
+                            <img alt={imageAlt.desktopAboutUsDongVienImage1Alt} src={images.desktopAboutUsDongVienImage1} />
                         </div>
                     </div>
                     <div className="desktop-about-us-dong-vien-block-2">
                         <div className="desktop-about-us-dong-vien-image">
-                            <img alt={thongTinTiem1.desktopAboutUsDongVienImage2Alt} src={thongTinTiem1.desktopAboutUsDongVienImage2} />
+                            <img alt={imageAlt.desktopAboutUsDongVienImage2Alt} src={images.desktopAboutUsDongVienImage2} />
                         </div>
                         <div className="desktop-about-us-dong-vien-text">
                             <DongVien2 />
@@ -68,7 +68,7 @@ export default function DesktopContent(){
                             <DongVien3 />
                         </div>
                         <div className="desktop-about-us-dong-vien-image">
-                            <img alt={thongTinTiem1.desktopAboutUsDongVienImage3Alt} src={thongTinTiem1.desktopAboutUsDongVienImage3} />
+                            <img alt={imageAlt.desktopAboutUsDongVienImage3Alt} src={images.desktopAboutUsDongVienImage3} />
                         </div>
                     </div>
                 <div>

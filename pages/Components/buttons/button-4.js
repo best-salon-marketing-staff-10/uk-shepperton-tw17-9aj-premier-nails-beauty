@@ -1,16 +1,15 @@
 import Link from 'next/link';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { thongTinTiem1 } from '/pages/core/info';
-import { thongTinTiem2 } from '/pages/core/info';
+import { button } from '/pages/core/info';
 
 export default function Button4(){
     const content = "Find us";
     return(
         <>
             <div className="button-4">
-                <Link href={thongTinTiem1.linkToMapTiem}>
+                <Link href={button.button4LinkTo}>
                     <div className="button-model-1">
-                        Find us
+                        {button.button4Content}
                     </div>
                 </Link>
             </div>

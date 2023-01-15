@@ -81,7 +81,8 @@
   .services-list-3,
   .services-list-4,
   .services-list-5,
-  .services-list-6{
+  .services-list-6,
+  .services-list-7{
     text-decoration: none;
     color: #8C96A8;
   }
@@ -150,6 +151,8 @@
     color: #8A94A6;
     font-weight: 700;
     font-size: 20px;
+    margin: auto;
+    margin-top: 5px;
   }
   .price-list-details-services-name-notice{
     font-size: 13px;
@@ -249,7 +252,6 @@
 
   /*Các list dịch vụ mà ko hiển thị
   */
-  
   .offers,
   .customer-review{
     display: none;
@@ -605,12 +607,18 @@
         margin: auto;
         margin-right: 0px;
         top: 0px;
-    }       
-    .nav-bar-link-a{
+    }   
+    .nav-bar-link-main-menu{
+      text-decoration: none;
+      color: #8A94A6;
+      font-weight: 500;
+      font-size: 25px;
+  }    
+    .nav-bar-link-service-category{
         text-decoration: none;
-        color: #8A94A6;
+        color: #949aa5;
         font-weight: 500;
- 
+        font-size: 21px;
     }
     .nav-bar-services-sub-category{
         margin-top: 25px;
@@ -684,6 +692,11 @@
       margin-top: 50px;
       margin-bottom: 50px;
     }
+    /*Phần description của động viên
+    */
+    .dong-vien-description{
+      font-size: 20px;
+    }
   
   /*Phần Nhấn Mạnh 1
   */
@@ -693,8 +706,9 @@
       background-color: #ADB5BD;
       color: #FFFFFF;
       text-align: center;
-      padding-top: 2px;
-      padding-bottom: 2px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      font-size: 20px;
     }
   /*Riêng Phần background của Nhấn Mạnh 2 
   */
@@ -743,7 +757,7 @@
     .nhan-manh-content-description{
       font-family: Noto Sans;
       margin-bottom: 15px;
-      font-size: 18px;
+      font-size: 20px;
     }
   /*Phần Nhấn Mạnh 4
   */
@@ -786,7 +800,7 @@
     }
     .nhan-manh-4-content-description{
       font-family: Noto Sans;
-      font-size: 18px;
+      font-size: 20px;
       margin-bottom: 25px;
     }
     .nhan-manh-4-content-1-wrapper{
@@ -1046,6 +1060,7 @@
     font-weight: 500;
     margin-bottom: 50px;
     line-height: 2;
+    font-size: 20px;
   }
 
   

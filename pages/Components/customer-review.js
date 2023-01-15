@@ -3,8 +3,9 @@ import Link from 'next/link';
 import Carousel from 'react-bootstrap/Carousel';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Button3 from '/pages/Components/buttons/button-3';
-import { thongTinTiem1 } from '/pages/core/info';
-import { thongTinTiem2 } from '/pages/core/info';
+import { pageContent } from '/pages/core/info';
+import { imageAlt } from '/pages/core/info';
+import { images } from '/pages/core/info';
 
 
 
@@ -16,10 +17,10 @@ export default function CustomerReview() {
             <div className="customer-review">
                 <div className="customer-review-text">
                     <div className="customer-review-title">
-                        WHAT OUR CUSTOMERS SAY
+                        {pageContent.customerReviewHeading}
                     </div>
                     <div>
-                        
+                        {pageContent.customerReviewDescription}
                     </div>
                     <div className="divider">
                     </div>
@@ -31,8 +32,8 @@ export default function CustomerReview() {
                             <div className="carousel-image">
                                 <img 
                                     className="customer-review-carousel-image"
-                                    src={thongTinTiem1.cusReviewImage1}
-                                    alt={thongTinTiem2.cusReviewImage1Alt}
+                                    src={images.cusReviewImage1}
+                                    alt={imageAlt.cusReviewImage1Alt}
                                 />
                             </div>
                         </Carousel.Item>
@@ -40,8 +41,8 @@ export default function CustomerReview() {
                             <div className="carousel-image">
                                 <img
                                     className="customer-review-carousel-image"
-                                    src={thongTinTiem1.cusReviewImage2}
-                                    alt={thongTinTiem2.cusReviewImage2Alt}
+                                    src={images.cusReviewImage2}
+                                    alt={imageAlt.cusReviewImage2Alt}
                                 />
                             </div>
                         </Carousel.Item>
@@ -49,8 +50,8 @@ export default function CustomerReview() {
                             <div className="carousel-image">
                                 <img
                                     className="customer-review-carousel-image"
-                                    src={thongTinTiem1.cusReviewImage3}
-                                    alt={thongTinTiem2.cusReviewImage3Alt}
+                                    src={images.cusReviewImage3}
+                                    alt={imageAlt.cusReviewImage3Alt}
                                 />
                             </div>
                         </Carousel.Item>
@@ -58,8 +59,8 @@ export default function CustomerReview() {
                             <div className="carousel-image">
                                 <img
                                     className="customer-review-carousel-image"
-                                    src={thongTinTiem1.cusReviewImage4}
-                                    alt={thongTinTiem2.cusReviewImage4Alt}
+                                    src={images.cusReviewImage4}
+                                    alt={imageAlt.cusReviewImage4Alt}
                                 />
                             </div>
                         </Carousel.Item>
@@ -67,8 +68,8 @@ export default function CustomerReview() {
                             <div className="carousel-image">
                                 <img
                                     className="customer-review-carousel-image"
-                                    src={thongTinTiem1.cusReviewImage5}
-                                    alt={thongTinTiem2.cusReviewImage5Alt}
+                                    src={images.cusReviewImage5}
+                                    alt={imageAlt.cusReviewImage5Alt}
                                 />
                             </div>
                         </Carousel.Item>

@@ -16,8 +16,6 @@ import Service5PriceList from '/pages/services/service-5-price-list';
 import Service6PriceList from '/pages/services/service-6-price-list';
 import Service7PriceList from '/pages/services/service-7-price-list';
 import Offers from '/pages/Components/offers/offers';
-import { thongTinTiem1 } from '/pages/core/info';
-import { thongTinTiem2 } from '/pages/core/info';
 
 
 export default function TabletContent(){
@@ -118,10 +116,10 @@ export default function TabletContent(){
                     </div>
                 </div>
                 <div>
-                    <Offers />
+                    <TimeSchedule />
                 </div>
                 <div>
-                    <TimeSchedule />
+                    <Offers />
                 </div>
             </div>
         </>

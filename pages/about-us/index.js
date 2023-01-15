@@ -18,7 +18,9 @@ import MobileFooter from '/pages/Components/footer/mobile-footer'
 import TabletFooter from '/pages/Components/footer/tablet-footer'
 import { thongTinTiem1 } from '/pages/core/info';
 import { thongTinTiem2 } from '/pages/core/info';
-import { schemaData } from '/pages/core/info'
+
+import { schemaData } from '/pages/core/info';
+import { headerInput } from '/pages/core/info';
 
 
 export default function AboutUs() {
@@ -28,34 +30,31 @@ export default function AboutUs() {
   return (
     <>
       <Head>
-        <title>The best nail salon in {thongTinTiem1.cityTiem} - {thongTinTiem1.tenTiem}</title>
-        <meta name="description" 
-            content= {thongTinTiem2.metaDescriptionContent} />
-        <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <title>{headerInput.headerTitle}</title>
+          <meta name="description" 
+            content= {headerInput.metaDescription} />
+          <meta charSet="UTF-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
           
-        <link rel="icon" href={thongTinTiem1.icon} />
-        <meta name="geo.position" content={thongTinTiem2.geoPositionContent} />
-        <meta name="geo.placename" content={thongTinTiem2.geoPlaceNameContent} />
-        <meta name="geo.region" content={thongTinTiem1.geoRegionContent} />
-        <link rel="canonical" href={thongTinTiem1.websiteTiem} />
-        <link rel="alternate" hrefLang="en" href={thongTinTiem1.websiteTiem} />
-        <link rel="alternate" href={thongTinTiem1.websiteTiem} hrefLang="x-default" />
+          <link rel="icon" href={headerInput.relIcon} />
+          <link rel="canonical" href={headerInput.relCanonical} />
+          <link rel="alternate" hrefLang="en" href={headerInput.relCanonical} />
+          <link rel="alternate" href={headerInput.relCanonical} hrefLang="x-default" />
 
-        <meta property='og:title' content={thongTinTiem2.sloganTiem} />
-        <meta property='og:image' content={thongTinTiem1.ogImage} />
-        <meta property='og:description' 
-            content={thongTinTiem2.metaDescriptionContent} />
-        <meta property='og:url' content={thongTinTiem1.websiteTiem} />
-        <meta property='og:image:width' content='1164' />
-        <meta property='og:image:height' content='1032' />
-        <meta property="og:type" content='website' />
-        <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-          />
-      </Head>
+          <meta name="geo.position" content={headerInput.metaGeoPosition} />
+          <meta name="geo.placename" content={headerInput.metaGeoPlaceName} />
+          <meta name="geo.region" content={headerInput.metaGeoRegion} />
+          
 
+          <meta property='og:title' content={headerInput.metaOgTitle} />
+          <meta property='og:image' content={headerInput.metaOgImage} />
+          <meta property='og:description' 
+            content={headerInput.metaDescription} />
+          <meta property='og:url' content={headerInput.relCanonical} />
+          <meta property='og:image:width' content={headerInput.metaOgImageWidth} />
+          <meta property='og:image:height' content={headerInput.metaOgImageHeight} />
+          <meta property="og:type" content='website' />
+        </Head>
         <div className="page-container">
             <div className="page-nav-bar">
               <div className="page-top-bar">

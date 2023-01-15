@@ -1,17 +1,16 @@
 import Link from 'next/link';
-import { thongTinTiem1 } from '/pages/core/info';
-import { thongTinTiem2 } from '/pages/core/info';
+import { button } from '/pages/core/info';
 
 export default function ButtonFullListOfOurServices(){
     const content = "Full list of our services";
 
     return(
         <>
-            <Link href="/services">
-                <div className="button-model-1">
-                    {content}
-                </div>
-            </Link>
+            <Link href={button.button5LinkTo}>
+                    <div className="button-model-1">
+                        {button.button5Content}
+                    </div>
+                </Link>
         </>
     )
 }

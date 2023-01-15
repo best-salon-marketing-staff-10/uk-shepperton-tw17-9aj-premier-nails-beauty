@@ -1,6 +1,7 @@
 import Button2 from '/pages/Components/buttons/button-2';
-import { thongTinTiem1 } from '/pages/core/info';
-import { thongTinTiem2 } from '/pages/core/info';
+import { imageAlt } from '/pages/core/info';
+import { pageContent } from '/pages/core/info';
+import { images } from '/pages/core/info';
 
 export default function NhanManh4(){
 
@@ -9,32 +10,32 @@ export default function NhanManh4(){
             <div className="nhan-manh-4-background">
                 <div className="nhan-manh-4-content-1">
                     <div className="nhan-manh-4-content-1-wrapper">
-                        <div className="nhan-manh-4-content-header">
-                            {thongTinTiem2.NhanhManh4Heading}
-                        </div>
+                        <h2 className="nhan-manh-4-content-header">
+                            {pageContent.section7Heading}
+                        </h2>
                         <div className="nhan-manh-4-content-description">
-                            {thongTinTiem2.NhanhManh4Content}
+                            {pageContent.section7Description}
                         </div>
                         <div>
                             <Button2 />
                         </div>
                     </div>
                     <div className="nhan-manh-4-content-1-image">
-                        <img alt={thongTinTiem2.NhanhManh4Image1Alt} src={thongTinTiem1.NhanhManh4Image1} />
+                        <img alt={imageAlt.section7Image1Alt} src={images.section7Image1} />
                     </div>
                 </div>
                 
                 <div className="nhan-manh-4-content-2">
                     <div className="nhan-manh-4-content-2-image">
-                        <img alt={thongTinTiem2.NhanhManh4Image2Alt} src={thongTinTiem1.NhanhManh4Image2} />
+                        <img alt={imageAlt.section7Image2Alt} src={images.section7Image1} />
                     </div>
                     <div className="nhan-manh-4-content-2-wrapper">
                         <div className="nhan-manh-4-content-wrapper">
-                            <div className="nhan-manh-4-content-header-4">
-                                {thongTinTiem2.NhanhManh5Heading}
-                            </div>
+                            <h2 className="nhan-manh-4-content-header-4">
+                                {pageContent.section8Heading}
+                            </h2>
                             <div className="nhan-manh-4-content-description">
-                                {thongTinTiem2.NhanhManh5Content}
+                                {pageContent.section8Description}
                             </div>
                             <div>
                                 <Button2 />

@@ -1,56 +1,57 @@
 import Link from "next/link";
-import { thongTinTiem1 } from '/pages/core/info';
-import { thongTinTiem2 } from '/pages/core/info';
+import { changedInfo } from "../core/info";
+import { processedInfo } from '/pages/core/info';
+import { pageContent } from '/pages/core/info';
 
 export default function ContentOurPolicy(){
     return(
         <>
             <div className="content-our-policy">
-                <div className="content-heading-h1">
-                    {thongTinTiem2.contentOurPolicyHeadingMain}
-                </div>
+                <h1 className="content-heading-h1">
+                    {pageContent.contentOurPolicyHeadingMain}
+                </h1>
                 <div className="content-block">
-                    <div className="content-heading-h2">
-                        {thongTinTiem2.contentOurPolicyHeadingSmall1}
-                    </div>
+                    <h2 className="content-heading-h2">
+                        {pageContent.contentOurPolicyHeadingSmall1}
+                    </h2>
                     <div className="content-description">
-                        {thongTinTiem2.contentOurPolicyDescription1}
-                    </div>
-                </div>
-                <div className="content-block">
-                    <div className="content-heading-h2">
-                        {thongTinTiem2.contentOurPolicyHeadingSmall2}
-                    </div>
-                    <div className="content-description">
-                    {thongTinTiem2.contentOurPolicyDescription2}
+                        {pageContent.contentOurPolicyDescription1}
                     </div>
                 </div>
                 <div className="content-block">
-                    <div className="content-heading-h2">
-                        {thongTinTiem2.contentOurPolicyHeadingSmall3}
-                    </div>
+                    <h2 className="content-heading-h2">
+                        {pageContent.contentOurPolicyHeadingSmall2}
+                    </h2>
                     <div className="content-description">
-                        {thongTinTiem2.contentOurPolicyDescription3}
+                        {pageContent.contentOurPolicyDescription2}
                     </div>
                 </div>
                 <div className="content-block">
-                    <div className="content-heading-h2">
-                        {thongTinTiem2.contentOurPolicyHeadingSmall4}
-                    </div>
+                    <h2 className="content-heading-h2">
+                        {pageContent.contentOurPolicyHeadingSmall3}
+                    </h2>
                     <div className="content-description">
-                        {thongTinTiem2.contentOurPolicyDescription41}
-                        <a className="content-description-link-a" href={thongTinTiem2.callTiem}>
-                            {thongTinTiem1.phoneTiem}
+                        {pageContent.contentOurPolicyDescription3}
+                    </div>
+                </div>
+                <div className="content-block">
+                    <h2 className="content-heading-h2">
+                        {pageContent.contentOurPolicyHeadingSmall4}
+                    </h2>
+                    <div className="content-description">
+                        {pageContent.contentOurPolicyDescription41}
+                        <a className="content-description-link-a" href={processedInfo.callBusiness}>
+                            {changedInfo.businessPhoneNumber}
                         </a>
-                        {thongTinTiem2.contentOurPolicyDescription42}
+                        {pageContent.contentOurPolicyDescription42}
                     </div>
                 </div>
                 <div className="content-block">
-                    <div className="content-heading-h2">
-                        {thongTinTiem2.contentOurPolicyHeadingSmall5}
-                    </div>
+                    <h2 className="content-heading-h2">
+                        {pageContent.contentOurPolicyHeadingSmall5}
+                    </h2>
                     <div className="content-description">
-                        {thongTinTiem2.contentOurPolicyDescription5}
+                        {pageContent.contentOurPolicyDescription5}
                     </div>
                 </div>
             </div>

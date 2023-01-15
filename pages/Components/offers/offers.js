@@ -1,9 +1,6 @@
-import Head from 'next/head';
-import Link from 'next/link';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Button3 from '/pages/Components/buttons/button-3.js';
-import { thongTinTiem1 } from '/pages/core/info';
-import { thongTinTiem2 } from '/pages/core/info';
+import { processedInfo } from '/pages/core/info';
 
 export default function Offers(){
     return(
@@ -12,7 +9,7 @@ export default function Offers(){
                 <div className="offers-content-text">
                         <div className="offers-title">
                             <h1 className="title-1">
-                                {thongTinTiem2.offerTitle}
+                                {processedInfo.offerTitle}
                             </h1>
                             <div className="offers-divider">
                                 <NavDropdown.Divider /> 
@@ -20,21 +17,21 @@ export default function Offers(){
                         </div>
                     <div className="offers-description">
                         <div>
-                            {thongTinTiem2.offerDescription}
+                            {processedInfo.offerDescription}
                         </div>
                         <div className="offers">
                             <div className="offers-heading">
-                                {thongTinTiem2.offerHeading}
+                                {processedInfo.offerHeading}
                             </div>
                             <div className="offers-content">
                                 <div>
-                                    {thongTinTiem2.offerContent1}
+                                    {processedInfo.offerContent1}
                                 </div>
                                 <div>
-                                    {thongTinTiem2.offerContent2}
+                                    {processedInfo.offerContent2}
                                 </div>
                                 <div>
-                                    {thongTinTiem2.offerContent3}
+                                    {processedInfo.offerContent3}
                                 </div>
                             </div>
                         </div>

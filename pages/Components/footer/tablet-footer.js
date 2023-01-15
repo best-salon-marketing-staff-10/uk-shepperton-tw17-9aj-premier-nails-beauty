@@ -2,8 +2,13 @@ import Link from 'next/link';
 import Head from 'next/head';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import LogoNav from '/pages/Components/logo-nav/logo-nav';
-import { thongTinTiem1 } from '/pages/core/info';
-import { thongTinTiem2 } from '/pages/core/info';
+import { menu } from '/pages/core/info';
+import { serviceCategory } from '/pages/core/info';
+import { processedInfo } from '/pages/core/info';
+import { imageAlt } from '/pages/core/info';
+import { changedInfo } from '/pages/core/info';
+import { images } from '/pages/core/info';
+import { pageContent } from '/pages/core/info';
 
 export default function TabletFooter(){
 
@@ -22,120 +27,127 @@ export default function TabletFooter(){
                 </div>
                 <div className="footer-navigation">
                     <div className="footer-navigation-item-group-1">
-                        <div className="footer-navigation-item">
-                            <Link href={thongTinTiem1.linkTomainMenu1}>
+                        <h2 className="footer-navigation-item">
+                            <Link href={menu.linkToMainMenu1}>
                                 <a className="footer-navigation-item">
-                                    {thongTinTiem1.mainMenu1}
+                                    {menu.mainMenu1}
                                 </a>
                             </Link>
-                        </div>
+                        </h2>
                     
                         <div className="footer-navigation-item">
-                            <div className="footer-navigation-item-services">
-                                <Link href={thongTinTiem1.linkTomainMenu4}>
+                            <h2 className="footer-navigation-item-services">
+                                <Link href={menu.linkToMainMenu4}>
                                     <a className="footer-navigation-item">
-                                        {thongTinTiem1.mainMenu4}
+                                        {menu.mainMenu4}
                                     </a>
                                 </Link>
-                            </div>
+                            </h2>
                             <div className="footer-navigation-item-detail-services">
-                                <div className="footer-navigation-item-detail-services">
-                                    <Link href={thongTinTiem1.linkTomainService1}>
+                                <h3 className="footer-navigation-item-detail-services">
+                                    <Link href={serviceCategory.tabletLinkToServiceCategory1}>
                                         <a className="services-list-1">
-                                            {thongTinTiem1.mainService1}
+                                            {serviceCategory.serviceCategory1}
                                         </a>
                                     </Link>
-                                </div>
-                                <div className="footer-navigation-item-detail-services">
-                                    <Link href={thongTinTiem1.linkTomainService2}>
+                                </h3>
+                                <h3 className="footer-navigation-item-detail-services">
+                                    <Link href={serviceCategory.tabletLinkToServiceCategory2}>
                                         <a className="services-list-2">
-                                            {thongTinTiem1.mainService2}
+                                            {serviceCategory.serviceCategory2}
                                         </a>
                                     </Link>
-                                </div>
-                                <div className="footer-navigation-item-detail-services">
-                                    <Link href={thongTinTiem1.linkTomainService3}>
+                                </h3>
+                                <h3 className="footer-navigation-item-detail-services">
+                                    <Link href={serviceCategory.tabletLinkToServiceCategory3}>
                                         <a className="services-list-3">
-                                            {thongTinTiem1.mainService3}
+                                            {serviceCategory.serviceCategory3}
                                         </a>
                                     </Link>
-                                </div>
-                                <div className="footer-navigation-item-detail-services">
-                                    <Link href={thongTinTiem1.linkTomainService4}>
+                                </h3>
+                                <h3 className="footer-navigation-item-detail-services">
+                                    <Link href={serviceCategory.tabletLinkToServiceCategory4}>
                                         <a className="services-list-4">
-                                            {thongTinTiem1.mainService4}
+                                            {serviceCategory.serviceCategory4}
                                         </a>
                                     </Link>
-                                </div>
-                                <div 
+                                </h3>
+                                <h3 
                                 className="footer-navigation-item-detail-services">
-                                    <Link href={thongTinTiem1.linkTomainService5}>
+                                    <Link href={serviceCategory.tabletLinkToServiceCategory5}>
                                         <a className="services-list-5">
-                                            {thongTinTiem1.mainService5}
+                                            {serviceCategory.serviceCategory5}
                                         </a>
                                     </Link>
-                                </div>
-                                <div className="footer-navigation-item-detail-services">
-                                    <Link href={thongTinTiem1.linkTomainService6}>
+                                </h3>
+                                <h3 className="footer-navigation-item-detail-services">
+                                    <Link href={serviceCategory.tabletLinkToServiceCategory6}>
                                         <a className="services-list-6">
-                                            {thongTinTiem1.mainService6}
+                                            {serviceCategory.serviceCategory6}
                                         </a>
                                     </Link>
-                                </div>
+                                </h3>
+                                <h3 className="footer-navigation-item-detail-services">
+                                    <Link href={serviceCategory.tabletLinkToServiceCategory7}>
+                                        <a className="services-list-7">
+                                            {serviceCategory.serviceCategory7}
+                                        </a>
+                                    </Link>
+                                </h3>
                             </div>
                         </div>
                     </div>
                     <div className="footer-navigation-item-group-2">
-                        <div className="footer-navigation-item">
-                            <Link href={thongTinTiem1.linkTomainMenu3}>
+                        <h2 className="footer-navigation-item">
+                            <Link href={menu.linkToMainMenu3}>
                                 <a className="footer-navigation-item">
-                                    {thongTinTiem1.mainMenu3}
+                                    {menu.mainMenu3}
                                 </a>
                             </Link>
-                        </div>
-                        <div className="footer-navigation-item">
-                            <Link href={thongTinTiem1.linkTomainMenu2}>
+                        </h2>
+                        <h2 className="footer-navigation-item">
+                            <Link href={menu.linkToMainMenu2}>
                                 <a className="footer-navigation-item">
-                                    {thongTinTiem1.mainMenu2}
+                                    {menu.mainMenu2}
                                 </a>
                             </Link>
-                        </div>
-                        <div className="footer-navigation-item">
-                            <Link href={thongTinTiem1.linkTomainMenu5}>
+                        </h2>
+                        <h2 className="footer-navigation-item">
+                            <Link href={menu.linkToMainMenu5}>
                                 <a className="footer-navigation-item">
-                                    {thongTinTiem1.mainMenu5}
+                                    {menu.mainMenu5}
                                 </a>
                             </Link>
-                        </div>
+                        </h2>
                         <div className="footer-navigation-item">
-                            <div className="footer-navigation-item">
+                            <h2 className="footer-navigation-item">
                                 <Link href="/">
                                     <a className="footer-navigation-item">
-                                        Contact us
+                                        {menu.mainMenu6}
                                     </a>
                                 </Link>
-                            </div>
+                            </h2>
                             <div className="footer-navigation-item-details">
-                                <Link href={thongTinTiem2.callTiem}>
+                            <Link href={processedInfo.callBusiness}>
                                     <div className="footer-navigation-item-details-1">
                                         <div>
-                                            <img className="footer-image" alt={thongTinTiem2.footerImagePhoneIconAlt} src={thongTinTiem1.footerImagePhoneIcon} />
+                                            <img className="footer-image" alt={imageAlt.footerImagePhoneIconAlt} src={images.footerImagePhoneIcon} />
                                         </div>
                                         <div>
                                             <a className="footer-navigation-item-details">
-                                                {thongTinTiem1.phoneTiem}
+                                                {changedInfo.businessPhoneNumber}
                                             </a>
                                         </div>
                                     </div>
                                 </Link>  
-                                <Link href={thongTinTiem1.linkToMapTiem}>  
+                                <Link href={changedInfo.linkToMap}>  
                                     <div className="footer-navigation-item-details-2">
                                         <div>
-                                            <img className="footer-image" alt={thongTinTiem2.footerImageMapPointerIconAlt}  src={thongTinTiem1.footerImageMapPointerIcon} />
+                                            <img className="footer-image" alt={imageAlt.footerImageMapPointerIconAlt}  src={images.footerImageMapPointerIcon} />
                                         </div>
                                         <div>
                                             <a className="footer-navigation-item-details">
-                                                {thongTinTiem2.addressTiemTopBar}
+                                                {processedInfo.businessAddress}
                                             </a>
                                         </div>
                                     </div>
@@ -145,14 +157,12 @@ export default function TabletFooter(){
                     </div>
                 </div>
                 <div className="footer-navigation-item">
-                    <iframe src={thongTinTiem1.iframeMapLink} width="1024" height="500" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-                    
+                    <iframe src={changedInfo.iframeMapLink} width="1024" height="500" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div className="footer-copyright">
-                    © Copyright and Powered by 
-                    <Link href="https://speedcustomer.com">
+                    <Link href={pageContent.copyrightWebsiteLink}>
                         <a className="footer-copyright" rel="dofollow">
-                            &nbsp;SC
+                            © Copyright and Powered by Best Salon Marketing
                         </a>
                     </Link>
                 </div>

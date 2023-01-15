@@ -2,8 +2,11 @@ import Link from 'next/link';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Button3 from '/pages/Components/buttons/button-3.js';
 import Button4 from '/pages/Components/buttons/button-4.js';
-import { thongTinTiem1 } from '/pages/core/info';
-import { thongTinTiem2 } from '/pages/core/info';
+import { images } from '/pages/core/info';
+import { imageAlt } from '/pages/core/info';
+import { changedInfo } from '/pages/core/info';
+import { processedInfo } from '/pages/core/info';
+import { pageContent } from '/pages/core/info';
 
 export default function Location(){
 
@@ -11,27 +14,26 @@ export default function Location(){
         <>
             <div className="location">
                 <div className="location-image">
-                    <img alt={thongTinTiem2.LocationImage1Alt} src={thongTinTiem1.LocationImage1} />
+                    <img alt={imageAlt.LocationImage1Alt} src={images.LocationImage1} />
                 </div>
                 <div className="location-text">
-                    
-                    <div className="location-title">
-                        LOCATION
-                    </div>
+                    <h2 className="location-title">
+                        {pageContent.locationHeading}
+                    </h2>
                     <div className="location-header">
-                        {thongTinTiem1.areaTiem}
+                        {changedInfo.businessAddressLevel2}
                     </div>
                     <div className="location-description">
                         <div className="location-description">
-                            {thongTinTiem1.addressTiemLine1}
+                            {changedInfo.businessAddressLevel1}
                             <br />
-                            {thongTinTiem1.areaTiem} 
+                            {changedInfo.businessAddressLevel2}
                             <br />
-                            {thongTinTiem1.postcodeTiem}
+                            {changedInfo.businessPostCode}
                         </div>
-                        <Link href={thongTinTiem2.callTiem}>
+                        <Link href={processedInfo.callBusiness}>
                             <div className="phone-tiem">
-                                {thongTinTiem1.phoneTiem}
+                                {changedInfo.businessPhoneNumber}
                             </div>
                         </Link>
                     </div>

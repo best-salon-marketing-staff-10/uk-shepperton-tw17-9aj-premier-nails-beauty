@@ -1,6 +1,6 @@
 import Link from 'next/link';
-import { thongTinTiem1 } from '/pages/core/info';
-import { thongTinTiem2 } from '/pages/core/info';
+import { processedInfo } from '/pages/core/info';
+import { menu } from '/pages/core/info';
 
 export default function desktopTopBar(){
 
@@ -11,14 +11,14 @@ export default function desktopTopBar(){
 
                 </div>
                 <div className="top-bar">
-                    <Link href={thongTinTiem2.callTiem}>
+                    <Link href={processedInfo.callBusiness}>
                         <div className="top-bar-item-left">
                             CALL NOW
                         </div>
                     </Link>
                         <div className="top-bar-item-spacer">
                         </div>
-                    <Link href={thongTinTiem2.linkBookingTiem}>
+                    <Link href={menu.linkToMainMenu3}>
                         <div className="top-bar-item-right">
                             BOOK NOW
                         </div>

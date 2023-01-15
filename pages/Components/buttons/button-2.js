@@ -1,15 +1,12 @@
 import Link from 'next/link';
-import { thongTinTiem1 } from '/pages/core/info';
-import { thongTinTiem2 } from '/pages/core/info';
+import { button } from '/pages/core/info';
 
 export default function Button2(){
-    const content = "View Our Services";
-
     return(
         <>  
-            <Link href="/services">
+            <Link href={button.button2LinkTo}>
                 <div className="button-model-1">
-                    {content}
+                    {button.button2Content}
                 </div>
             </Link>
         </>
