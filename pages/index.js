@@ -55,10 +55,9 @@ export default function Home() {
 
           
           <meta name="google-site-verification" content={headerInput.metaGoogleSiteVerification} />
-<<<<<<< HEAD
+
           <meta name="google-site-verification" content="8PY9C4tyFxx-C0abTprXegCqjI9VHTxWzt57enQ1cNc" />
-=======
->>>>>>> b977f9878ad50ecbe469ece39cd9667a1ee3648d
+
 
           <script
             type="application/ld+json"

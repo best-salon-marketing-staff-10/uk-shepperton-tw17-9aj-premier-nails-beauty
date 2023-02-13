@@ -279,15 +279,9 @@ export default function Service1PriceList(){
                     <div className="price-list-details-services-container">
                         <div className="price-list-details-services-item">
                             <div className="price-list-details-services-name">
-<<<<<<< HEAD
-                                <span className="price-list-details-services-name">
-                                    {serviceList1.service11}
-                                </span>
-=======
                                 <h3 className="price-list-details-services-name">
                                     {serviceList1.service11}
                                 </h3>
->>>>>>> b977f9878ad50ecbe469ece39cd9667a1ee3648d
                                 <span className="price-list-details-services-name-notice">
                                     
                                 </span>
@@ -315,15 +309,9 @@ export default function Service1PriceList(){
                     <div className="price-list-details-services-container">
                         <div className="price-list-details-services-item">
                             <div className="price-list-details-services-name">
-<<<<<<< HEAD
-                                <span className="price-list-details-services-name">
-                                    {serviceList1.service47}
-                                </span>
-=======
                                 <h3 className="price-list-details-services-name">
                                     {serviceList1.service47}
                                 </h3>
->>>>>>> b977f9878ad50ecbe469ece39cd9667a1ee3648d
                                 <span className="price-list-details-services-name-notice">
                                     
                                 </span>
@@ -351,15 +339,9 @@ export default function Service1PriceList(){
                     <div className="price-list-details-services-container">
                         <div className="price-list-details-services-item">
                             <div className="price-list-details-services-name">
-<<<<<<< HEAD
-                                <span className="price-list-details-services-name">
-                                    {serviceList1.service37}
-                                </span>
-=======
                                 <h3 className="price-list-details-services-name">
                                     {serviceList1.service37}
                                 </h3>
->>>>>>> b977f9878ad50ecbe469ece39cd9667a1ee3648d
                                 <span className="price-list-details-services-name-notice">
                                     
                                 </span>
@@ -381,7 +363,6 @@ export default function Service1PriceList(){
                             </span>
                             <span className="price-list-details-services-price">
                                £{serviceList1.service37Price}
-<<<<<<< HEAD
                             </span>
                         </div>
                     </div>
@@ -562,8 +543,6 @@ export default function Service1PriceList(){
                             </span>
                             <span className="price-list-details-services-price">
                                £{serviceList1.service41Price}
-=======
->>>>>>> b977f9878ad50ecbe469ece39cd9667a1ee3648d
                             </span>
                         </div>
                     </div>
@@ -930,11 +909,7 @@ export default function Service1PriceList(){
                     <div className="price-list-details-services-container">
                         <div className="price-list-details-services-item">
                             <div className="price-list-details-services-name">
-<<<<<<< HEAD
-                                <span className="price-list-details-services-name">
-=======
                                 <h3 className="price-list-details-services-name">
->>>>>>> b977f9878ad50ecbe469ece39cd9667a1ee3648d
                                     {serviceList1.service36}
                                 </h3>
                                 <span className="price-list-details-services-name-notice">
@@ -964,27 +939,21 @@ export default function Service1PriceList(){
                     <div className="price-list-details-services-container">
                         <div className="price-list-details-services-item">
                             <div className="price-list-details-services-name">
-<<<<<<< HEAD
-                                <span className="price-list-details-services-name">
-                                    {serviceList1.service42}
-                                </span>
-=======
                                 <h3 className="price-list-details-services-name">
-                                    {serviceList1.service42}
+                                    {serviceList1.service20}
                                 </h3>
->>>>>>> b977f9878ad50ecbe469ece39cd9667a1ee3648d
                                 <span className="price-list-details-services-name-notice">
                                     
                                 </span>
                             </div>
                             <div className="price-list-details-services-time">
                                 <span className="price-list-details-services-time">
-                                    {serviceList1.service42Time}
+                                    {serviceList1.service20Time}
                                 </span>
                             </div>
                             <div className="price-list-details-services-description">
                                 <span className="price-list-details-services-description">
-                                    {serviceList1.service42Description}
+                                    {serviceList1.service20Description}
                                 </span>
                             </div>
                         </div>
@@ -993,7 +962,7 @@ export default function Service1PriceList(){
                                 
                             </span>
                             <span className="price-list-details-services-price">
-                               £{serviceList1.service42Price}
+                               £{serviceList1.service20Price}
                             </span>
                         </div>
                     </div>
@@ -1090,15 +1059,9 @@ export default function Service1PriceList(){
                     <div className="price-list-details-services-container">
                         <div className="price-list-details-services-item">
                             <div className="price-list-details-services-name">
-<<<<<<< HEAD
-                                <span className="price-list-details-services-name">
-                                    {serviceList1.service43}
-                                </span>
-=======
                                 <h3 className="price-list-details-services-name">
                                     {serviceList1.service43}
                                 </h3>
->>>>>>> b977f9878ad50ecbe469ece39cd9667a1ee3648d
                                 <span className="price-list-details-services-name-notice">
                                     
                                 </span>
@@ -1126,15 +1089,9 @@ export default function Service1PriceList(){
                     <div className="price-list-details-services-container">
                         <div className="price-list-details-services-item">
                             <div className="price-list-details-services-name">
-<<<<<<< HEAD
-                                <span className="price-list-details-services-name">
-                                    {serviceList1.service44}
-                                </span>
-=======
                                 <h3 className="price-list-details-services-name">
                                     {serviceList1.service44}
                                 </h3>
->>>>>>> b977f9878ad50ecbe469ece39cd9667a1ee3648d
                                 <span className="price-list-details-services-name-notice">
                                     
                                 </span>
@@ -1162,15 +1119,9 @@ export default function Service1PriceList(){
                     <div className="price-list-details-services-container">
                         <div className="price-list-details-services-item">
                             <div className="price-list-details-services-name">
-<<<<<<< HEAD
-                                <span className="price-list-details-services-name">
-                                    {serviceList1.service45}
-                                </span>
-=======
                                 <h3 className="price-list-details-services-name">
                                     {serviceList1.service45}
                                 </h3>
->>>>>>> b977f9878ad50ecbe469ece39cd9667a1ee3648d
                                 <span className="price-list-details-services-name-notice">
                                     
                                 </span>
@@ -1198,15 +1149,9 @@ export default function Service1PriceList(){
                     <div className="price-list-details-services-container">
                         <div className="price-list-details-services-item">
                             <div className="price-list-details-services-name">
-<<<<<<< HEAD
-                                <span className="price-list-details-services-name">
-                                    {serviceList1.service46}
-                                </span>
-=======
                                 <h3 className="price-list-details-services-name">
                                     {serviceList1.service46}
                                 </h3>
->>>>>>> b977f9878ad50ecbe469ece39cd9667a1ee3648d
                                 <span className="price-list-details-services-name-notice">
                                     
                                 </span>
@@ -1234,15 +1179,9 @@ export default function Service1PriceList(){
                     <div className="price-list-details-services-container">
                         <div className="price-list-details-services-item">
                             <div className="price-list-details-services-name">
-<<<<<<< HEAD
-                                <span className="price-list-details-services-name">
-                                    {serviceList1.service23}
-                                </span>
-=======
                                 <h3 className="price-list-details-services-name">
                                     {serviceList1.service23}
                                 </h3>
->>>>>>> b977f9878ad50ecbe469ece39cd9667a1ee3648d
                                 <span className="price-list-details-services-name-notice">
                                     
                                 </span>
@@ -1270,15 +1209,9 @@ export default function Service1PriceList(){
                     <div className="price-list-details-services-container">
                         <div className="price-list-details-services-item">
                             <div className="price-list-details-services-name">
-<<<<<<< HEAD
-                                <span className="price-list-details-services-name">
-                                    {serviceList1.service32}
-                                </span>
-=======
                                 <h3 className="price-list-details-services-name">
                                     {serviceList1.service32}
                                 </h3>
->>>>>>> b977f9878ad50ecbe469ece39cd9667a1ee3648d
                                 <span className="price-list-details-services-name-notice">
                                     
                                 </span>
@@ -1306,15 +1239,9 @@ export default function Service1PriceList(){
                     <div className="price-list-details-services-container">
                         <div className="price-list-details-services-item">
                             <div className="price-list-details-services-name">
-<<<<<<< HEAD
-                                <span className="price-list-details-services-name">
-                                    {serviceList1.service33}
-                                </span>
-=======
                                 <h3 className="price-list-details-services-name">
                                     {serviceList1.service33}
                                 </h3>
->>>>>>> b977f9878ad50ecbe469ece39cd9667a1ee3648d
                                 <span className="price-list-details-services-name-notice">
                                     
                                 </span>

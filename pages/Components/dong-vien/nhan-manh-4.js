@@ -27,7 +27,7 @@ export default function NhanManh4(){
                 
                 <div className="nhan-manh-4-content-2">
                     <div className="nhan-manh-4-content-2-image">
-                        <img alt={imageAlt.section7Image2Alt} src={images.section7Image1} />
+                        <img alt={imageAlt.section7Image2Alt} src={images.section7Image2} />
                     </div>
                     <div className="nhan-manh-4-content-2-wrapper">
                         <div className="nhan-manh-4-content-wrapper">

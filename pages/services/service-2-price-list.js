@@ -188,15 +188,9 @@ export default function Service2PriceList(){
                     <div className="price-list-details-services-container">
                         <div className="price-list-details-services-item">
                             <div className="price-list-details-services-name">
-<<<<<<< HEAD
-                                <span className="price-list-details-services-name">
-                                    {serviceList2.service7}
-                                </span>
-=======
                                 <h3 className="price-list-details-services-name">
                                     {serviceList2.service7}
                                 </h3>
->>>>>>> b977f9878ad50ecbe469ece39cd9667a1ee3648d
                                 <span className="price-list-details-services-name-notice">
                                     
                                 </span>
@@ -224,15 +218,9 @@ export default function Service2PriceList(){
                     <div className="price-list-details-services-container">
                         <div className="price-list-details-services-item">
                             <div className="price-list-details-services-name">
-<<<<<<< HEAD
-                                <span className="price-list-details-services-name">
-                                    {serviceList2.service9}
-                                </span>
-=======
                                 <h3 className="price-list-details-services-name">
                                     {serviceList2.service9}
                                 </h3>
->>>>>>> b977f9878ad50ecbe469ece39cd9667a1ee3648d
                                 <span className="price-list-details-services-name-notice">
                                     
                                 </span>
@@ -260,17 +248,10 @@ export default function Service2PriceList(){
                     <div className="price-list-details-services-container">
                         <div className="price-list-details-services-item">
                             <div className="price-list-details-services-name">
-<<<<<<< HEAD
-                                <span className="price-list-details-services-name">
-                                    {serviceList2.service10}
-                                </span>
-=======
                                 <h3 className="price-list-details-services-name">
                                     {serviceList2.service10}
                                 </h3>
->>>>>>> b977f9878ad50ecbe469ece39cd9667a1ee3648d
-                                <span className="price-list-details-services-name-notice">
-                                    
+                                <span className="price-list-details-services-name-notice">      
                                 </span>
                             </div>
                             <div className="price-list-details-services-time">
