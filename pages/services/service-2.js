@@ -50,7 +50,7 @@ export default function Service2(){
                             </div>
                         <div className="service-content-description">
                             <p className="service-content-description">
-                                {pageContent.serviceCategory3Description}   
+                                {pageContent.serviceCategory2Description}   
                             </p>
                         </div>
                         <div className="button-view-detail-services">
