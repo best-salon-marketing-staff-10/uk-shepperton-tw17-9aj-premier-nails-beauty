@@ -121,15 +121,15 @@ const changedInfo = {
 
   
 
-  //Mở Google Maps tiệm, zoom sát vào, chuột phải
-  geoLatitude: 50.721704169283726,
-  geoLongitude: -3.533617680425276,
+  //Mở Google Maps tiệm, zoom sát vào, chuột phải 
+  geoLatitude: 50.72165291432293,
+  geoLongitude: -3.5336547035207144,
 
   //Code xác minh của website trên Google Search
   metaGoogleSiteVerification: "",
 
   //iframe map
-  iframeMapLink : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2525.908327148308!2d-3.53587108404891!3d50.72163987566774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486da43af0c1af77%3A0xe478b5a726342f33!2sprincess%20nails%20exeter!5e0!3m2!1sen!2suk!4v1657275156584!5m2!1sen!2suk",
+  iframeMapLink : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d157.86945033478742!2d-3.533776515350408!3d50.721586479953295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486da43af0c1af77%3A0xe478b5a726342f33!2sPrincess%20nails%20Exeter!5e0!3m2!1sen!2sus!4v1681546039070!5m2!1sen!2sus",
 
   // Các ảnh của tiệm
   ogImage:"https://i.ibb.co/dmKhmXW/og-image.jpg",
