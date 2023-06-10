@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "princess-nails-exeter",
     "public": "out",
     "ignore": [
       "firebase.json",

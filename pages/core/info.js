@@ -1167,54 +1167,129 @@ const images = {
     service7Description : "Fancy something a little different? Head into our " + seoKeyword.seoKeyword2 + " for new ways to choose the perfect colour for your toes. Pick from a range of colours or go for an intricate design on your toe nails.",
 
     service8 : "Smoothing Pedicure with normal polish",
-    service8Time : "45 mins",
+    service8Time : "40 mins",
     service8Price : "35",
-    service8Description : "Starting with a Mineral Herbal Bath Soak then followed by a gentle massage and exfoliation with natural Body Liquid Lufra.After nails and cuticles are carefully trimmed and shape, heels are treated with all spice berry solution. Finish with a traditional lower leg message using body Smoother solution leaving your skin feeling silky",
+    service8Description : "Start with a Mineral Herbal Bath Soak, followed by a gentle massage and exfoliation using natural Body Liquid Lufra. After trimming and shaping the nails and cuticles, treat the heels with an allspice berry solution. Finish with a traditional lower leg massage using body Smoother solution, leaving your skin feeling silky.",
 
     service9 : "Smoothing Pedicure with gel polish",
-    service9Time : "45 mins",
+    service9Time : "40 mins",
     service9Price : "40",
-    service9Description : "Starting with a Mineral Herbal Bath Soak then followed by a gentle massage and exfoliation with natural Body Liquid Lufra.After nails and cuticles are carefully trimmed and shape, heels are treated with all spice berry solution. Finish with a traditional lower leg message using body Smoother solution leaving your skin feeling silky",
+    service9Description : "Start with a Mineral Herbal Bath Soak, followed by a gentle massage and exfoliation using natural Body Liquid Lufra. After trimming and shaping the nails and cuticles, treat the heels with an allspice berry solution. Finish with a traditional lower leg massage using body Smoother solution, leaving your skin feeling silky.",
 
     service10 : "Icedancer Pedicure with normal polish",
-    service10Time : "50 mins",
+    service10Time : "45 mins",
     service10Price : "40",
-    service10Description : "Your feet have been longawaiting for rejuvenating pedicur. Say ahh… to a warm whirlpool soaking with Mineral Herbal Bath. Then a gentle massage and Walnut Husk Liquid Body Lufra exfoliation.While regular pedicure components are tented, a calf massage with the Invigorating Icedancer and steamy towel wrap are added for restoring vitality and energizing the legs. Dry heel are also treated with an all Spice Berry Sole Solution. Finish with a soft yet intense hydrating Baobab Body Butter for an ultimate experience.",
+    service10Description : "Your feet have been long awaiting a rejuvenating pedicure. Say ahh… to a warm whirlpool soak with Mineral Herbal Bath. Then, enjoy a gentle massage and exfoliation using Walnut Husk Liquid Body Lufra. While the regular pedicure components are being attended to, a calf massage with the Invigorating Icedancer and a steamy towel wrap are added to restore vitality and energize the legs. Dry heels are also treated with the allspice berry Sole Solution. Finish with a soft yet intense hydrating Baobab Body Butter for the ultimate experience.",
 
     service11 : "Icedancer Pedicure with gel polish",
-    service11Time : "50 mins",
+    service11Time : "45 mins",
     service11Price : "45",
-    service11Description : "Your feet have been longawaiting for rejuvenating pedicur. Say ahh… to a warm whirlpool soaking with Mineral Herbal Bath. Then a gentle massage and Walnut Husk Liquid Body Lufra exfoliation.While regular pedicure components are tented, a calf massage with the Invigorating Icedancer and steamy towel wrap are added for restoring vitality and energizing the legs. Dry heel are also treated with an all Spice Berry Sole Solution. Finish with a soft yet intense hydrating Baobab Body Butter for an ultimate experience.",
+    service11Description : "Your feet have been long awaiting a rejuvenating pedicure. Say ahh… to a warm whirlpool soak with Mineral Herbal Bath. Then, enjoy a gentle massage and exfoliation using Walnut Husk Liquid Body Lufra. While the regular pedicure components are being attended to, a calf massage with the Invigorating Icedancer and a steamy towel wrap are added to restore vitality and energize the legs. Dry heels are also treated with the allspice berry Sole Solution. Finish with a soft yet intense hydrating Baobab Body Butter for the ultimate experience.",
 
     service12 : "Firewalker Pedicure with normal polish",
-    service12Time : "60 mins",
+    service12Time : "50 mins",
     service12Price : "45",
-    service12Description : "Your feet have been longawaiting for rejuvenating pedicur. Say ahh… to a warm whirlpool soaking with Mineral Herbal Bath. Then a gentle massage and Walnut Husk Liquid Body Lufra exfoliation.While regular pedicure components are tented, a calf massage with the Invigorating Icedancer and steamy towel wrap are added for restoring vitality and energizing the legs. Dry heel are also treated with an all Spice Berry Sole Solution. Finish with a soft yet intense hydrating Baobab Body Butter for an ultimate experience.",
+    service12Description : "Indulge in this guilt-free guilty pleasure. The Firewalker Pedicure will leave your feet and legs feeling amazing. Start with an Herbal Mineral Bath, followed by a blend of Grapefruit Body Bar and Walnut Body Lufra Exfoliating. Top it off with the Revitalizing Ice Dancer leg massage and a hot towel wrap to take your pedicure experience to a whole new level. Along with our famous Sole Solution heel treatment, finger pressure massage techniques using Firewalker Cream will relieve all tiredness. Finish with the ultimate softness of Baobab Body Butter. Served with a glass of champagne.",
 
     service13 : "Firewalker Pedicure with gel polish",
-    service13Time : "60 mins",
+    service13Time : "50 mins",
     service13Price : "50",
-    service13Description : "Your feet have been longawaiting for rejuvenating pedicur. Say ahh… to a warm whirlpool soaking with Mineral Herbal Bath. Then a gentle massage and Walnut Husk Liquid Body Lufra exfoliation.While regular pedicure components are tented, a calf massage with the Invigorating Icedancer and steamy towel wrap are added for restoring vitality and energizing the legs. Dry heel are also treated with an all Spice Berry Sole Solution. Finish with a soft yet intense hydrating Baobab Body Butter for an ultimate experience.",
+    service13Description : "Indulge in this guilt-free guilty pleasure. The Firewalker Pedicure will leave your feet and legs feeling amazing. Start with an Herbal Mineral Bath, followed by a blend of Grapefruit Body Bar and Walnut Body Lufra Exfoliating. Top it off with the Revitalizing Ice Dancer leg massage and a hot towel wrap to take your pedicure experience to a whole new level. Along with our famous Sole Solution heel treatment, finger pressure massage techniques using Firewalker Cream will relieve all tiredness. Finish with the ultimate softness of Baobab Body Butter. Served with a glass of champagne.",
 
     service14 : "Smoothing Manicure with normal polish",
-    service14Time : "40 mins",
-    service14Price : "28",
-    service14Description : "Starting with a Mineral Herbal Bath Soak then followed by a gentle massage and exfoliation with natural Body Liquid Lufra.After nails and cuticles are carefully trimmed and shape, heels are treated with all spice berry solution. Finish with a traditional lower leg message using body Smoother solution leaving your skin feeling silky",
+    service14Time : "30 mins",
+    service14Price : "25",
+    service14Description : "Start with a Mineral Herbal Bath Soak, then followed by a gentle massage and exfoliation with natural Body Liquid Lufra. After the nails and cuticles are carefully trimmed and shaped, the heels are treated with an allspice berry solution. Finish with a traditional lower leg massage using the Body Smoother solution, leaving your skin feeling silky.",
 
     service15 : "Smoothing Manicure with gel polish",
-    service15Time : "40 mins",
+    service15Time : "30 mins",
     service15Price : "35",
-    service15Description : "Starting with a Mineral Herbal Bath Soak then followed by a gentle massage and exfoliation with natural Body Liquid Lufra.After nails and cuticles are carefully trimmed and shape, heels are treated with all spice berry solution. Finish with a traditional lower leg message using body Smoother solution leaving your skin feeling silky",
+    service15Description : "Start with a Mineral Herbal Bath Soak, then followed by a gentle massage and exfoliation with natural Body Liquid Lufra. After the nails and cuticles are carefully trimmed and shaped, the heels are treated with an allspice berry solution. Finish with a traditional lower leg massage using the Body Smoother solution, leaving your skin feeling silky.",
 
     service16 : "Icedancer Pedicure & Manicure with normal polish",
-    service16Time : "90 mins",
-    service16Price : "55",
-    service16Description : "Your feet & hand have been longawaiting for rejuvenating pedicure & manicure. Say ahh… to a warm whirlpool soaking with Mineral Herbal Bath. Then a gentle massage and Walnut Husk Liquid Body Lufra exfoliation.While regular pedicure components are tented, a calf massage with the Invigorating Icedancer and steamy towel wrap are added for restoring vitality and energizing the legs. Dry heel are also treated with an all Spice Berry Sole Solution. Finish with a soft yet intense hydrating Baobab Body Butter for an ultimate experience",
+    service16Time : "70 mins",
+    service16Price : "60",
+    service16Description : "Your feet and hands have been long awaiting a rejuvenating pedicure and manicure. Say ahh… to a warm whirlpool soak with Mineral Herbal Bath. Then, enjoy a gentle massage and Walnut Husk Liquid Body Lufra exfoliation. While the regular pedicure components are being attended to, a calf massage with the Invigorating Icedancer and a steamy towel wrap are added to restore vitality and energize the legs. Dry heels are also treated with the allspice berry Sole Solution. Finish with a soft yet intense hydrating Baobab Body Butter for the ultimate experience.",
 
     service17 : "Icedancer Pedicure & Manicure with gel polish",
-    service17Time : "90 mins",
-    service17Price : "70",
-    service17Description : "Your feet & hand have been longawaiting for rejuvenating pedicure & manicure. Say ahh… to a warm whirlpool soaking with Mineral Herbal Bath. Then a gentle massage and Walnut Husk Liquid Body Lufra exfoliation.While regular pedicure components are tented, a calf massage with the Invigorating Icedancer and steamy towel wrap are added for restoring vitality and energizing the legs. Dry heel are also treated with an all Spice Berry Sole Solution. Finish with a soft yet intense hydrating Baobab Body Butter for an ultimate experience",
+    service17Time : "70 mins",
+    service17Price : "75",
+    service17Description : "Your feet and hands have been long awaiting a rejuvenating pedicure and manicure. Say ahh… to a warm whirlpool soak with Mineral Herbal Bath. Then, enjoy a gentle massage and Walnut Husk Liquid Body Lufra exfoliation. While the regular pedicure components are being attended to, a calf massage with the Invigorating Icedancer and a steamy towel wrap are added to restore vitality and energize the legs. Dry heels are also treated with the allspice berry Sole Solution. Finish with a soft yet intense hydrating Baobab Body Butter for the ultimate experience.",
+
+    service18 : "Smoothing Pedicure & Manicure with normal polish",
+    service18Time : "65 mins",
+    service18Price : "55",
+    service18Description : "Start with a Mineral Herbal Bath Soak, followed by a gentle massage and exfoliation with natural Body Liquid Lufra. After the nails and cuticles are carefully trimmed and shaped, the heels are treated with an allspice berry solution. Finish with a traditional lower leg massage using the Body Smoother solution, leaving your skin feeling silky.",
+
+    service19: "Smoothing Pedicure & Manicure with gel polish",
+    service19Time : "65 mins",
+    service19Price : "65",
+    service19Description : "Start with a Mineral Herbal Bath Soak, followed by a gentle massage and exfoliation with natural Body Liquid Lufra. After the nails and cuticles are carefully trimmed and shaped, the heels are treated with an allspice berry solution. Finish with a traditional lower leg massage using the Body Smoother solution, leaving your skin feeling silky.",
+
+    service20: "Firewalker Pedicure & Manicure with normal polish",
+    service20Time : "80 mins",
+    service20Price : "70",
+    service20Description : "Indulge in this guilt-free pleasure. The Firewalker Pedicure & Manicure will leave your feet, legs, and hands feeling amazing. Start with an Herbal Mineral Bath, followed by a blend of Grapefruit Body Bar and Walnut Body Lufra Exfoliating. Top it off with the Revitalizing Ice Dancer leg massage and a hot towel wrap to elevate your pedicure experience. Along with our famous Sole Solution heel treatment, finger pressure massage techniques using Firewalker Cream will alleviate all tiredness. Finish with the ultimate softness of Baobab Body Butter. Served with a glass of champagne. ",
+
+    service21: "Firewalker Pedicure & Manicure with gel polish",
+    service21Time : "80 mins",
+    service21Price : "80",
+    service21Description : "Indulge in this guilt-free pleasure. The Firewalker Pedicure & Manicure will leave your feet, legs, and hands feeling amazing. Start with an Herbal Mineral Bath, followed by a blend of Grapefruit Body Bar and Walnut Body Lufra Exfoliating. Top it off with the Revitalizing Ice Dancer leg massage and a hot towel wrap to elevate your pedicure experience. Along with our famous Sole Solution heel treatment, finger pressure massage techniques using Firewalker Cream will alleviate all tiredness. Finish with the ultimate softness of Baobab Body Butter. Served with a glass of champagne.",
+
+    service22: "Essential Oils Pedicure & Manicure with normal polish",
+    service22Time : "1 hr 40 mins",
+    service22Price : "90",
+    service22Description : "Choose your favorite oils and dive into the refreshing, rejuvenating, and sharp aroma of Epoch Essential Oil. This unique blend combines the wisdom of ages with modern science, providing an ultimate pedicure experience. For centuries, indigenous cultures have enhanced their lives with botanicals, transforming topical remedies into aromatherapy. Indulge in this guilt-free pleasure. Your feet and hands have long been waiting for this rejuvenating Essential Oils Pedicure & Manicure. Served with a glass of champagne.",
+
+    service23: "Essential Oils Pedicure & Manicure with gel polish",
+    service23Time : "1 hr 40 mins",
+    service23Price : "100",
+    service23Description : "Choose your favorite oils and dive into the refreshing, rejuvenating, and sharp aroma of Epoch Essential Oil. This unique blend combines the wisdom of ages with modern science, providing an ultimate pedicure experience. For centuries, indigenous cultures have enhanced their lives with botanicals, transforming topical remedies into aromatherapy. Indulge in this guilt-free pleasure. Your feet and hands have long been waiting for this rejuvenating Essential Oils Pedicure & Manicure. Served with a glass of champagne.",
+
+    service24: "Essential Oils Pedicure with normal polish",
+    service24Time : "60 mins",
+    service24Price : "55",
+    service24Description : "Choose your favorite oils. Dive into the refreshing, rejuvenating, and sharp aroma of Epoch Essential Oil, combining the wisdom of ages with modern science, for the ultimate pedicure experience. For centuries, indigenous cultures have improved their lives with botanicals, from topical remedies to aromatherapy. Indulge in this guilty pleasure without guilt. Your feet have long been waiting for this rejuvenating Essential Oils Pedicure, served with a glass of champagne.",
+
+    service25: "Essential Oils Pedicure with gel polish",
+    service25Time : "60 mins",
+    service25Price : "60",
+    service25Description : "Choose your favorite oils. Dive into the refreshing, rejuvenating, and sharp aroma of Epoch Essential Oil, combining the wisdom of ages with modern science, for the ultimate pedicure experience. For centuries, indigenous cultures have improved their lives with botanicals, from topical remedies to aromatherapy. Indulge in this guilty pleasure without guilt. Your feet have long been waiting for this rejuvenating Essential Oils Pedicure, served with a glass of champagne.",
+ 
+    service26: "Icedancer Manicure with normal polish",
+    service26Time : "35 mins",
+    service26Price : "30",
+    service26Description : "Your hands have been long-awaiting a rejuvenating pedicure. Say ahh... to a warm whirlpool soak with Mineral Herbal Bath. Then, enjoy a gentle massage and exfoliation with Walnut Husk Liquid Body Lufra. While the regular manicure components are attended to, an arm massage with the Invigorating Icedancer and a steamy towel wrap are added to restore vitality and energize the legs. Dry heels are also treated with the all Spice Berry Sole Solution. Finish with a soft yet intensely hydrating Baobab Body Butter for the ultimate experience.",
+
+    service27: "Icedancer Manicure with gel polish",
+    service27Time : "35 mins",
+    service27Price : "40",
+    service27Description : "Your hands have been long-awaiting a rejuvenating pedicure. Say ahh... to a warm whirlpool soak with Mineral Herbal Bath. Then, enjoy a gentle massage and exfoliation with Walnut Husk Liquid Body Lufra. While the regular manicure components are attended to, an arm massage with the Invigorating Icedancer and a steamy towel wrap are added to restore vitality and energize the legs. Dry heels are also treated with the all Spice Berry Sole Solution. Finish with a soft yet intensely hydrating Baobab Body Butter for the ultimate experience.",
+
+    service28: "Firewalker Manicure with normal polish",
+    service28Time : "40 mins",
+    service28Price : "35",
+    service28Description: "Indulge in this guilt-free pleasure. The Firewalker Manicure will leave your hands and arms feeling amazing. Start with a Herbal Mineral Bath, followed by a blend of Grapefruit Body Bar and Walnut Body Lufra Exfoliating. Top it off with the Revitalizing Ice Dancer arm massage and a hot towel wrap to take your manicure experience to a whole new level. Along with our famous Sole Solution heel treatment, finger pressure massage techniques using Firewalker Cream will alleviate all tiredness. Finish with the ultimate softness of Baobab Body Butter.",
+
+    service29 : "Firewalker Manicure with gel polish",
+    service29Time : "40 mins",
+    service29Price : "45",
+    service29Description : "Indulge in this guilt-free pleasure. The Firewalker Manicure will leave your hands and arms feeling amazing. Start with a Herbal Mineral Bath, followed by a blend of Grapefruit Body Bar and Walnut Body Lufra Exfoliating. Top it off with the Revitalizing Ice Dancer arm massage and a hot towel wrap to take your manicure experience to a whole new level. Along with our famous Sole Solution heel treatment, finger pressure massage techniques using Firewalker Cream will alleviate all tiredness. Finish with the ultimate softness of Baobab Body Butter.",
+
+    service30: "Essential Oils Manicure with normal polish",
+    service30Time : "50 mins",
+    service30Price : "45",
+    service30Description : "Choose your favorite oils and dive into the refreshing, rejuvenating, and sharp aroma of Epoch Essential Oil. This unique blend combines the wisdom of ages with modern science, creating the ultimate manicure experience. For centuries, indigenous cultures have enhanced their lives with botanicals, transforming topical remedies into aromatherapy. Indulge in this guilt-free pleasure. Your hands have long been waiting for this rejuvenating Essential Oils.",
+
+    service31: "Essential Oils Manicure with gel polish",
+    service31Time : "50 mins",
+    service31Price : "50",
+    service31Description : "Choose your favorite oils and dive into the refreshing, rejuvenating, and sharp aroma of Epoch Essential Oil. This unique blend combines the wisdom of ages with modern science, creating the ultimate manicure experience. For centuries, indigenous cultures have enhanced their lives with botanicals, transforming topical remedies into aromatherapy. Indulge in this guilt-free pleasure. Your hands have long been waiting for this rejuvenating Essential Oils.",
+
+
+
+
+
   };
   
   const serviceList4 = {
@@ -1232,10 +1307,10 @@ const images = {
     service3Time : "60 mins",
     service3Price : "70",
     service3Description : "A holistic hair beauty system, Ageloc Nutriol Scalp & Hair System product contain powerfull ingredients for a scientifically advance treatment that, when combined with Ageloc Galvanise Spa, delivers instant benefits for your hair and lasting results up to your sclap. Enjoy a healthier hair appearance that looks & feels thicker, fuller, stronger, softer, shinier. Invest in hair up to your scalp, it’s the crown you wear every day!",
-    
+
     service4 : "",
-    service4Time : "50 mins",
-    service4Price : "35",
+    service4Time : "65 mins",
+    service4Price : "55",
     service4Description : "",
   
     service5 : "",
