@@ -132,7 +132,7 @@ const changedInfo = {
   iframeMapLink : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d157.86945033478742!2d-3.533776515350408!3d50.721586479953295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486da43af0c1af77%3A0xe478b5a726342f33!2sPrincess%20nails%20Exeter!5e0!3m2!1sen!2sus!4v1681546039070!5m2!1sen!2sus",
 
   // Các ảnh của tiệm
-  ogImage:"https://i.ibb.co/dmKhmXW/og-image.jpg",
+  ogImage:"https://princess-nails-exeter.web.app/images/desktop-nail-salon-happy-customer-1.jpg",
   icon:"/icon2.png",
   businessLogo:"/logo3.jpg",
 }
@@ -356,11 +356,14 @@ const headerInput = {
   metaGeoPosition : changedInfo.geoLatitude + ", " + changedInfo.geoLongitude,
   metaGeoPlaceName : changedInfo.businessAddressLevel2 + ", " + changedInfo.businessCountry,
   metaGeoRegion: changedInfo.businessGeoRegionCode + "-" + changedInfo.businessAddressDivisionCode,
+
+  metaOgSiteName: changedInfo.businessName,
+  metaOgLocale: "en_GB",
   
   metaOgTitle: processedInfo.slogan,
   metaOgImage: changedInfo.ogImage,
-  metaOgImageWidth: "1200",
-  metaOgImageHeight: "630",
+  metaOgImageWidth: "1920",
+  metaOgImageHeight: "1073",
 
   metaGoogleSiteVerification: changedInfo.metaGoogleSiteVerification,
 }
@@ -581,7 +584,7 @@ const pageContent = {
   ourStoryDescription: "Located at " + changedInfo.businessAddressLevel1 + ", we are a nail shop in " + changedInfo.businessAddressLevel2 + ". Skilled manicurists and pedicurists look forward to bringing you the best products and services. We are always researching and learning the best products and services, trendy nails, to bring more and more satisfaction to customers who are coming to us.",
 
   //dong-vien-1.js
-  section1Heading: "We are " + seoKeyword.seoKeyword3 + " experienced manicurists and pedicurists",
+  section1Heading: "We are experienced manicurists and pedicurists in " + changedInfo.businessAddressLevel2,
   section1Description: "Are you looking for nail salon in " + changedInfo.businessAddressLevel2 + "? One of the best nail salon in " + changedInfo.businessAddressLevel3 + "? We are proud to say that here we are. We can give you amazing nails with our acrylic extensions and great relaxation with our manicure and pedicure services. We cater to both men and women. You can rest assured and get a sense of satisfaction when you come to us",
 
   //dong-vien-2.js

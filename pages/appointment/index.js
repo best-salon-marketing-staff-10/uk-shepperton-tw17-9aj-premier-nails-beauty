@@ -37,6 +37,9 @@ export default function Appointment(){
           <meta name="geo.position" content={headerInput.metaGeoPosition} />
           <meta name="geo.placename" content={headerInput.metaGeoPlaceName} />
           <meta name="geo.region" content={headerInput.metaGeoRegion} />
+
+          <meta property="og:site_name" content={headerInput.metaOgSiteName} />
+          <meta property="og:locale" content={headerInput.metaOgLocale} />
           
 
           <meta property='og:title' content={headerInput.metaOgTitle} />
