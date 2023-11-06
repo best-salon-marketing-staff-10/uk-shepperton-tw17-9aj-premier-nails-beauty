@@ -252,8 +252,9 @@
 
   /*Các list dịch vụ mà ko hiển thị
   */
-  .offers,
-  .customer-review{
+  .services-list-4,
+  .services-list-7,
+  .offers{
     display: none;
   }
   /*Các list dịch vụ hiển thị cần phải cách nhau 1 khoảng
@@ -958,7 +959,7 @@
       margin-right: 10px; 
     }
     .customer-review-carousel-image{
-      max-width: 480px;
+      max-width: 100%;
     }
     .customer-review-description{
       text-align: center;

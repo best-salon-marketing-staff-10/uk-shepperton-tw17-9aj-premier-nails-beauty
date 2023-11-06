@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "princess-nails-exeter",
+    "site" : "premier-nails-beauty",
     "public": "out",
     "ignore": [
       "firebase.json",
