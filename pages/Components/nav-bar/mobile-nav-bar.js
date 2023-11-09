@@ -115,6 +115,15 @@ export default function MobileNavBar(){
                                                     </Link>
                                                 </div>
                                             </div> 
+                                            <div className="nav-bar-services-sub-category-details">
+                                                <div className="services-list-8">
+                                                    <Link href={serviceCategory.mobileLinkToServiceCategory8}>
+                                                        <a className="nav-bar-link-service-category">
+                                                            {serviceCategory.serviceCategory8}
+                                                        </a>
+                                                    </Link>
+                                                </div>
+                                            </div> 
                                         </div>
                                     </div>
                                     <div className="nav-bar-main-category">

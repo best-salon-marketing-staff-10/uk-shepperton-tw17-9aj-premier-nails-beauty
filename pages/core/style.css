@@ -56,7 +56,7 @@
 */
   /*Chống copy nội dung trang, tải ảnh....
   */
-    
+
   html{
     -youbkit-touch-callout: none; 
     -youbkit-user-select: none;   
@@ -122,7 +122,7 @@
     line-height: 1.8;
     font-size: 20px;
     font-weight: 500;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     letter-spacing: 1px;
   }
 /*
@@ -252,8 +252,6 @@
 
   /*Các list dịch vụ mà ko hiển thị
   */
-  .services-list-4,
-  .services-list-7,
   .offers{
     display: none;
   }
@@ -301,7 +299,8 @@
       .button-view-details-service-4-to-desktop,
       .button-view-details-service-5-to-desktop,
       .button-view-details-service-6-to-desktop,
-      .button-view-details-service-7-to-desktop {
+      .button-view-details-service-7-to-desktop,
+      .button-view-details-service-8-to-desktop {
         display: none;
       }
       .learn-more-button-to-tablet,
@@ -311,7 +310,8 @@
       .button-view-details-service-4-to-tablet,
       .button-view-details-service-5-to-tablet,
       .button-view-details-service-6-to-tablet,
-      .button-view-details-service-7-to-tablet {
+      .button-view-details-service-7-to-tablet,
+      .button-view-details-service-8-to-tablet {
         display: none;
       }
     
@@ -354,7 +354,8 @@
       .button-view-details-service-4-to-desktop,
       .button-view-details-service-5-to-desktop,
       .button-view-details-service-6-to-desktop,
-      .button-view-details-service-7-to-desktop {
+      .button-view-details-service-7-to-desktop,
+      .button-view-details-service-8-to-desktop{
         display: none;
       }
       .learn-more-button-to-mobile,
@@ -364,7 +365,8 @@
       .button-view-details-service-4-to-mobile,
       .button-view-details-service-5-to-mobile,
       .button-view-details-service-6-to-mobile,
-      .button-view-details-service-7-to-mobile {
+      .button-view-details-service-7-to-mobile,
+      .button-view-details-service-8-to-mobile {
         display: none;
       }
     /*Màn hình đầu tiên, giao diện tablet, cho chữ và nút lên trên ảnh, trên 1 chút so với đáy, và để về bên trái
@@ -431,7 +433,8 @@
       .button-view-details-service-4-to-mobile,
       .button-view-details-service-5-to-mobile,
       .button-view-details-service-6-to-mobile,
-      .button-view-details-service-7-to-mobile {
+      .button-view-details-service-7-to-mobile,
+      .button-view-details-service-8-to-mobile {
         display: none;
       }
       .learn-more-button-to-tablet,
@@ -441,7 +444,8 @@
       .button-view-details-service-4-to-tablet,
       .button-view-details-service-5-to-tablet,
       .button-view-details-service-6-to-tablet,
-      .button-view-details-service-7-to-tablet {
+      .button-view-details-service-7-to-tablet,
+      .button-view-details-service-8-to-tablet {
         display: none;
       }
       .dong-vien-content-anh{
@@ -547,8 +551,8 @@
     .mobile-bottom-nav-bar-home,
     .mobile-bottom-nav-bar-services,
     .mobile-bottom-nav-bar-contact-us{
-      margin-left: 5px;
-      margin-right: 5px;
+      margin-left: 15px;
+      margin-right: 15px;
     }
     .mobile-bottom-nav-bar-section-content{
       color: #B0B7C3;
@@ -758,7 +762,7 @@
     .nhan-manh-content-description{
       font-family: Noto Sans;
       margin-bottom: 15px;
-      font-size: 20px;
+      font-size: 21px;
     }
   /*Phần Nhấn Mạnh 4
   */
@@ -801,7 +805,7 @@
     }
     .nhan-manh-4-content-description{
       font-family: Noto Sans;
-      font-size: 20px;
+      font-size: 21px;
       margin-bottom: 25px;
     }
     .nhan-manh-4-content-1-wrapper{

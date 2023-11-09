@@ -115,7 +115,7 @@ const changedInfo = {
   businessWebsite: "https://premier-nails-beauty.web.app",
 
   linkBookingMap: "",
-  linkBookingApp: "https://bit.ly/470Vl79",
+  linkBookingApp: "https://bit.ly/47poiJN",
   linkToMap: "https://maps.app.goo.gl/xrD6jKJUyMr6cPfG9",
 
   
@@ -154,12 +154,13 @@ const menu = {
 const serviceCategory = {
   //Danh sách các dịch vụ của tiệm
   serviceCategory1:"Nail extensions",
-  serviceCategory2:"Gel nails / Shellac nails",
-  serviceCategory3:"Regular",
-  serviceCategory4:"Hair Wash massage with NuSkin",
-  serviceCategory5:"Nail design",
-  serviceCategory6:"Waxing",
-  serviceCategory7:"Facial",
+  serviceCategory2:"Shellac color",
+  serviceCategory3:"Original polish",
+  serviceCategory4:"SNS / Dipping powder",
+  serviceCategory5:"Extra",
+  serviceCategory6:"Beauty treatments",
+  serviceCategory7:"Gel BIAB",
+  serviceCategory8:"Princess nails",
 
   mobileLinkToServiceCategory1: "/services#m-service-list-1",
   mobileLinkToServiceCategory2: "/services#m-service-list-2",
@@ -168,6 +169,7 @@ const serviceCategory = {
   mobileLinkToServiceCategory5: "/services#m-service-list-5",
   mobileLinkToServiceCategory6: "/services#m-service-list-6",
   mobileLinkToServiceCategory7: "/services#m-service-list-7",
+  mobileLinkToServiceCategory8: "/services#m-service-list-8",
   
   tabletLinkToServiceCategory1: "/services#t-service-list-1",
   tabletLinkToServiceCategory2: "/services#t-service-list-2",
@@ -176,6 +178,7 @@ const serviceCategory = {
   tabletLinkToServiceCategory5: "/services#t-service-list-5",
   tabletLinkToServiceCategory6: "/services#t-service-list-6",
   tabletLinkToServiceCategory7: "/services#t-service-list-7",
+  tabletLinkToServiceCategory8: "/services#t-service-list-8",
 
   desktopLinkToServiceCategory1: "/services#d-service-list-1",
   desktopLinkToServiceCategory2: "/services#d-service-list-2",
@@ -184,6 +187,7 @@ const serviceCategory = {
   desktopLinkToServiceCategory5: "/services#d-service-list-5",
   desktopLinkToServiceCategory6: "/services#d-service-list-6",
   desktopLinkToServiceCategory7: "/services#d-service-list-7",
+  desktopLinkToServiceCategory8: "/services#d-service-list-8",
 }
 
 const seoInfo = {
@@ -379,26 +383,26 @@ const schemaInput = {
   schemaPostalCode: changedInfo.businessPostCode,
   schemaAddressCountry: changedInfo.businessGeoRegionCode,
 
-  schemaImage1: "/images/nail-extension-1-2.jpg",
-  schemaImage2: "/images/nail-extension-2-2.jpg",
-  schemaImage3: "/images/nail-extension-3-2.jpg",
-  schemaImage4: "/images/nail-extension-4-2.jpg",
-  schemaImage5: "/images/nail-extension-5-2.jpg",
-  schemaImage6: "/images/gel-nails-shellac-nails-1-2.jpg",
-  schemaImage7: "/images/gel-nails-shellac-nails-2-2.jpg",
-  schemaImage8: "/images/gel-nails-shellac-nails-3-2.jpg",
-  schemaImage9: "/images/gel-nails-shellac-nails-4-2.jpg",
-  schemaImage10: "/images/gel-nails-shellac-nails-5-2.jpg",
-  schemaImage11: "/images/nail-design-1-2.jpg",
-  schemaImage12: "/images/nail-design-2-2.jpg",
-  schemaImage13: "/images/nail-design-3-2.jpg",
-  schemaImage14: "/images/nail-design-4-2.jpg",
-  schemaImage15: "/images/nail-design-5-2.jpg",
-  schemaImage16: "/images/pedicure-1-2.jpg",
-  schemaImage17: "/images/pedicure-2-2.jpg",
-  schemaImage18: "/images/pedicure-3-2.jpg",
-  schemaImage19: "/images/pedicure-4-2.jpg",
-  schemaImage20: "/images/pedicure-5-2.jpg",
+  schemaImage1: "/images/nail-extension-1.jpg",
+  schemaImage2: "/images/nail-extension-2.jpg",
+  schemaImage3: "/images/nail-extension-3.jpg",
+  schemaImage4: "/images/nail-extension-4.jpg",
+  schemaImage5: "/images/nail-extension-5.jpg",
+  schemaImage6: "/images/gel-nails-shellac-nails-1.jpg",
+  schemaImage7: "/images/gel-nails-shellac-nails-2.jpg",
+  schemaImage8: "/images/gel-nails-shellac-nails-3.jpg",
+  schemaImage9: "/images/gel-nails-shellac-nails-4.jpg",
+  schemaImage10: "/images/gel-nails-shellac-nails-5.jpg",
+  schemaImage11: "/images/nail-design-1.jpg",
+  schemaImage12: "/images/nail-design-2.jpg",
+  schemaImage13: "/images/nail-design-3.jpg",
+  schemaImage14: "/images/nail-design-4.jpg",
+  schemaImage15: "/images/nail-design-5.jpg",
+  schemaImage16: "/images/pedicure-1.jpg",
+  schemaImage17: "/images/pedicure-2.jpg",
+  schemaImage18: "/images/pedicure-3.jpg",
+  schemaImage19: "/images/pedicure-4.jpg",
+  schemaImage20: "/images/pedicure-5.jpg",
 
 
   schemaTelephone: changedInfo.businessPhoneNumber,
@@ -621,18 +625,27 @@ const pageContent = {
   customerReviewDescription: "",
 
   //content-our-policy.js
-  contentOurPolicyHeadingMain: "OUR POLICIES",
+  contentOurPolicyHeadingMain: "SALON POLICY",
   contentOurPolicyHeadingSmall1: "Refunds",
   contentOurPolicyHeadingSmall2: "Guarantee",
   contentOurPolicyHeadingSmall3: "Tardiness",
   contentOurPolicyHeadingSmall4: "Cancellations",
   contentOurPolicyHeadingSmall5: "Gift Cards",
-  contentOurPolicyDescription1: "At " + changedInfo.businessName +", we will do anything we can to make sure you are satisfied. You are never just a customer, you’re part of the family. If your nails are not up to your expectations or if there’s something we can do to rectify it, speak up and let us know.    No refunds will be given after you have left the salon.",
-  contentOurPolicyDescription2: "Enhancements and gel polish manicures are guaranteed for 7 business days after your appointment; excluding breakages. If you lose an enhancement or notice chips or lifting in the first seven days, please call us to schedule a free repair. Repairs after 7 days or for breakages, tears, and corner breaks are charged. Be kind to your nails and they will look beautiful for weeks after your service. Traditional polish services are not guaranteed.",
+  contentOurPolicyHeadingSmall6: "Notes",
+  contentOurPolicyDescription1: "1. No cash refund will be given After you have left the salon.",
+  contentOurPolicyDescription12: "2. If you have  any problem concern to the service, staff ..., please inform us at the till point.",
+  contentOurPolicyDescription13: "3. If you paid and left the salon, we will consider that you accepted and were happy with the complete result of the service / staff.",
+  contentOurPolicyDescription14: "4. No refund will be given just because you simply changed your mind.",
+  contentOurPolicyDescription2: "1. Traditional polish is not guaranteed",
+  contentOurPolicyDescription22: "2. Enhancement / Gel polish services are Only guaranteed for 72 hrs from your visit. Within this time frame, it any problem due to the technical, please get in touch with us to shedule your free repair. If you can not come back within the free repair period, please still inform us and book an appointment at your most convenient.",
+  contentOurPolicyDescription23: "3. We will not be responsible for any breakage, infection or damage nails after you Leave the salon.",
   contentOurPolicyDescription3: "Scheduled appointments have a 15 minute grace period to allow for traffic snarls or parking difficulties. If you anticipate that you will be later than 15 minutes, please call ahead to see if we have the availability to complete your service in full. One late client can throw off our entire schedule and cause our other clients to be late for their commitments. Therefore, if you arrive more than 15 minutes late, we reserve the right to refuse partial or complete services.",
   contentOurPolicyDescription41: "Appointments can be cancelled 24 hours in advance by calling or texting ",
   contentOurPolicyDescription42: ". Please give at least 24 hours notice so that we have the opportunity to offer your reserved time to another client on our waiting list. We understand that sometimes emergencies happen, and it's not always possible to give adequate notice when you can't make an appointment. However, be aware that if you repeatedly cancel appointments without proper notice, we reserve the right to ask for a non-refundable deposit to secure your next appointment.",
   contentOurPolicyDescription5: "The Gift Card and its balance are valid for a period of six months from the date of purchase. Your Gift Card will cease to be valid six months from the date of purchase and you will no longer be entitled to use it. ",
+  contentOurPolicyDescription6: "Inform the salon if you have any allergy related to any chemical / substances. Before having any service(s)",
+  contentOurPolicyDescription62: "Inform the salon immediately if you have any concern that you have any infection / reaction / condition with respect to your nails.",
+  contentOurPolicyDescription63: "We will not take the any responsibilities for the loss of your personal belonging while you are having the service(s) in our salon.",
 
   //service-1.js
   serviceCategory1Description: "Our " + seoKeyword.seoKeyword15 + " offers a variety of nail extension services to enhance the length and beauty of your natural nails. We use high-quality products and skilled techniques to ensure a flawless and long-lasting result. Our experienced nail technicians can customize the length, shape, and color of your extensions to fit your unique style and preferences.",
@@ -644,7 +657,7 @@ const pageContent = {
   serviceCategory3Description: "Our manicure, pedicure, and nail shape and paint services are designed to make you feel pampered and beautiful. From perfectly shaped nails to vibrant colors, our experienced technicians are dedicated to delivering flawless results that exceed your expectations. We use only the highest quality products to ensure your nails remain strong, healthy, and beautiful. Treat yourself to an indulgent manicure or pedicure, and experience the luxurious relaxation and rejuvenation you deserve.",
   
   //service-4.js
-  serviceCategory4Description: "When you’re treating yourself to a pampering appointment with us, you deserve good things! Our soothing & relaxing services have you feeling like a new person. Imagine feeling the heated water on your scalp while the shampoo scrubs away impurities. Imagine feeling more refreshed and relaxed than ever with our Indian head massage therapy.",
+  serviceCategory4Description: "Its name comes from the process itself since you apply a clear adhesive base to the nail, then dip your finger into a fine acrylic powder before repeating several more times. The result is a shiny, super durable mani that you can enjoy for a few weeks before heading back to the nail salon.",
   
   //service-5.js
   serviceCategory5Description: "Step into our " + seoKeyword.seoKeyword15 + " and let our team of experts bring your nail design dreams to life. With high-quality products and meticulous attention to detail, we guarantee that your nails will be the envy of all your friends. Come visit us and let us transform your nails into a work of art.",
@@ -653,7 +666,15 @@ const pageContent = {
   serviceCategory6Description: "We offer waxing service. Our estheticians use the latest techniques and products to ensure your hair removal experience is as smooth and gentle as possible.",
 
   //service-7.js
-  serviceCategory7Description: "It’s time to pamper yourself and forget about the day’s stress 🌸. No question, we know that being healthy is the best beauty tip. Come have a facial with us and learn how to take care of your skin so you can look and feel beautiful everyday.",
+  serviceCategory7Description1: "Builder Gel - Adds strength and thickness to nails, and remains natural looking, and it is available in a range of skin tones.",
+  serviceCategory7Description2: "Builder Gel - Is stronger than regular gel polish, and is longer lasting.",
+  serviceCategory7Description3: "Builder Gel - Helps natural nails to grow, it is lighter and gives a more natural feeling than acrylic powder.",
+  serviceCategory7Description4: "Please not to leave your nails too long before your next appointment for an infill (or it's called a rebalance sometimes).",
+  serviceCategory7Description5: "This is because when your nail apex has grown out, this un-balanced grow out nail may cause trauma for your natural nail underneath.",
+  serviceCategory7Description6: "As the regrowth is far too much and it weakens the natural nail, it can affect the natural nails stability, the natural nail undereath, has not been checked and anything could be going on.",
+
+  //service-8.js
+  serviceCategory8Description: "Under 12 years old",
 
   locationHeading: "LOCATION",
   timeScheduleHeading: "OPENING HOURS",
@@ -715,6 +736,11 @@ const button = {
   button12LinkToMobile: "/services/#m-service-list-7",
   button12LinkToTablet: "/services/#t-service-list-7",
   button12LinkToDesktop: "/services/#d-service-list-7",
+
+  button13Content: "View details services",
+  button13LinkToMobile: "/services/#m-service-list-8",
+  button13LinkToTablet: "/services/#t-service-list-8",
+  button13LinkToDesktop: "/services/#d-service-list-8",
 }
 
 const images = {
@@ -758,10 +784,10 @@ const images = {
   serviceList3Image4: "/images/pedicure-4.jpg",
   serviceList3Image5: "/images/pedicure-5.jpg",
 
-  serviceList4Image1: "/images/hair-wash-1.jpg",
-  serviceList4Image2: "/images/hair-wash-2.jpg",
-  serviceList4Image3: "/images/hair-wash-3.jpg",
-  serviceList4Image4: "/images/hair-wash-4.jpg",
+  serviceList4Image1: "/images/nail-extension-20.jpg",
+  serviceList4Image2: "/images/nail-extension-7.jpg",
+  serviceList4Image3: "/images/gel-nails-shellac-nails-4.jpg",
+  serviceList4Image4: "/images/",
   serviceList4Image5: "/images/hair-wash-5.jpg",
 
   serviceList5Image1: "/images/nail-design-1.jpg",
@@ -776,11 +802,17 @@ const images = {
   serviceList6Image4: "",
   serviceList6Image5: "",
 
-  serviceList7Image1: "/images/facial-1.jpg",
+  serviceList7Image1: "/images/gel-biab.jpg",
   serviceList7Image2: "/images/facial-2.jpg",
   serviceList7Image3: "/images/facial-3.jpg",
   serviceList7Image4: "/images/facial-4.jpg",
   serviceList7Image5: "/images/facial-5.jpg",
+
+  serviceList8Image1: "/images/princess-nail.jpg",
+  serviceList8Image2: "/images/facial-2.jpg",
+  serviceLis8Image3: "/images/facial-3.jpg",
+  serviceList8Image4: "/images/facial-4.jpg",
+  serviceList8Image5: "/images/facial-5.jpg",
 
   //Ảnh trang about cho 3 giao diện
 
@@ -850,15 +882,15 @@ const images = {
     service2Price : "23",
     service2Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
 
-    service3 : "Acrylic Full Set with Shellac",
+    service3 : "Acrylic Fullset with Shellac",
     service3Time : "1 hr",
     service3Price : "35",
-    service3Description : "Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
+    service3Description : "Our nails extension Shepperton service help your hands shine by adding a little length to your natural nail. We recommend choosing Shellac polish over normal nails polish, Shellac not only enhances the durability and longevity of your nails but also ensures a quick-drying, smudge-free finish. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips. ",
 
     service4 : "Acrylic Infill with Shellac",
     service4Time : "45 mins",
     service4Price : "28",
-    service4Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
+    service4Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions. ",
     
     service5 : "Gel Powder Full Set with normal nail polish",
     service5Time : "45 mins",
@@ -924,11 +956,6 @@ const images = {
     service17Time : "1 hr",
     service17Price : "35",
     service17Description : "",
-
-    service18 : "Take off Powder",
-    service18Time : "20 mins",
-    service18Price : "10",
-    service18Description : "Just take off",
   
     service19 : "Take off Acrylic and Redone a Newset",
     service19Time : "1 hr",
@@ -950,21 +977,6 @@ const images = {
     service22Price : "35",
     service22Description : "Take off then Manicure and then Shellac",
 
-    service23 : "Dipping Powder SNS",
-    service23Time : "45 mins",
-    service23Price : "32",
-    service23Description : "SNS Dipping Powder creates a stronger polish finish which can help strengthen brittle or weak nails.",
-  
-    service24 : "BIAB buider gel Fullset",
-    service24Time : "35 mins",
-    service24Price : "40",
-    service24Description : "",
-
-    service25 : "BIAB buider gel Infill",
-    service25Time : "30 mins",
-    service25Price : "30",
-    service25Description : "",
-
     service26 : "Long nails extra",
     service26Time : "",
     service26Price : "5",
@@ -974,11 +986,6 @@ const images = {
     service27Time : "",
     service27Price : "5",
     service27Description : "",
-
-    service28 : "Single nails repair (from)",
-    service28Time : "",
-    service28Price : "£3/£5",
-    service28Description : "",
 
     service29 : "Take off Acrylic and Redone Acrylic Fullset with normal nail polish",
     service29Time : "1 hr",
@@ -1075,39 +1082,6 @@ const images = {
     service47Price : "35",
     service47Description : "",
 
-    service48: "Dipping Powder SNS French Tip",
-    service48Time: "45 mins",
-    service48Price: "35",
-    service48Description: "",
-
-    service49: "Dipping Powder SNS Ombre",
-    service49Time: "45 mins",
-    service49Price: "38",
-    service49Description: "",
-
-    service50: "BIAB builder gel Overlay",
-    service50Time: "35 mins",
-    service50Price: "35",
-    serviced50Description: "",
-
-    service51: "Nails Polish",
-    service51Time: "",
-    service51Price: "6",
-    service51Description: "",
-
-    service52: "Toes Nails Polish",
-    service52Time: "",
-    service52Price: "8",
-    service52Description: "",
-
-    service53: "Pedicure & Manicure",
-    service53Time: "",
-    service53Price: "30",
-    service53Description: "",
-
-
-
-
     }; 
   
   const serviceList2 = {
@@ -1124,12 +1098,12 @@ const images = {
     service3 : "Manicure Shellac",
     service3Time : "40 mins",
     service3Price : "28",
-    service3Description : "Manicures are a difficult art to master. No matter how great they look when finished, they seem to always chip within days, if not in a matter of hours. Enter the Gel nail manicure - a groundbreaking technique that uses gel polishes that get 'cured' under UV lights. The result? Shiny, strong nails for weeks and no drying time!",
+    service3Description : "Include nails trimming, shaping, buffing, cuticle grooming, color and lotion massage",
 
     service4 : "Pedicure Shellac",
     service4Time : "40 mins",
     service4Price : "40",
-    service4Description : "Please bring Flip Flops/Sandals. Highly recommended with Gel Colour. Last longer and less likely to chip! Fries instantly so you don't have to worry about smudging it.",
+    service4Description : "Include nails trimming, shaping, buffing, cuticle grooming, callus treatment, collagen mint scrub, color then hot towel wrap, and hot stone massage. Add £2 more for extra layer for strengthening and lasting",
 
     service5 : "Gel Polish Manicure & Pedicure",
     service5Time : "1 hr 25 mins",
@@ -1161,18 +1135,28 @@ const images = {
     service10Price : "20",
     service10Description : "",
 
+    service11: "Shellac with French",
+    service11Time: "45 mins",
+    service11Price: "28",
+    service11Description: "",
+
+    service12: "Manicure Shellac with French",
+    service12Time: "60 mins",
+    service12Price: "30",
+    service12Description: "",
+
   };
   
   const serviceList3 = {
     service1 : "Manicure with normal polish",
     service1Time : "30 mins",
     service1Price : "20",
-    service1Description : "A classic manicure is all you need to take great care of your hands and nails. Includes massage, cuticle, shaping, file, polish and moisturiser.",
+    service1Description : "A classic manicure is all you need to take great care of your hands and nails. Includes shaping, file, polish and moisturiser, cuticle, massage.",
  
     service2 : "Pedicure with normal polish",
     service2Time : "40 mins",
     service2Price : "30",
-    service2Description : "A classic pedicure is all you need to take great care of your feet and nails. Includes scrub, dead skin, cuticle, massage, moisturise, shape, file and polish.",
+    service2Description : "A classic pedicure is all you need to take great care of your feet and nails. Includes scrub, dead skin, shape, file and polish, cuticle, moisturise, massage.",
     
     service3 : "Luxury Pedicure",
     service3Time : "40 mins",
@@ -1182,7 +1166,7 @@ const images = {
     service4 : "Manicure & Pedicure with normal polish",
     service4Time : "1 hr 15 mins",
     service4Price : "45",
-    service4Description : "Manicure includes massage, cuticle, shaping, file, polish and moisturiser. Pedicure includes scrub, dead skin, cuticle, massage, moisturise, shape, file and polish.",
+    service4Description : "Manicure includes shaping, file, polish and moisturiser, cuticle, massage. Pedicure includes scrub, dead skin, shape, file and polish, cuticle, moisturise, massage.",
   
     service5 : "Men's Manicure & Pedicure",
     service5Time : "1 hr 15 mins",
@@ -1192,12 +1176,12 @@ const images = {
     service6 : "Shape & paint on hands",
     service6Time : "15 mins",
     service6Price : "15",
-    service6Description : "Want to show off your individuality? Come to " + changedInfo.businessName + " to paint on your nails with designs from experts at our " + seoKeyword.seoKeyword1,
+    service6Description : "Many people love traditional nail polish because it can easily to be take off, let Premier nails  & Beauty help you to paint them perfectly",
 
     service7 : "Shape & paint on toes",
     service7Time : "15 mins",
     service7Price : "15",
-    service7Description : "Fancy something a little different? Head into our " + seoKeyword.seoKeyword2 + " for new ways to choose the perfect colour for your toes. Pick from a range of colours or go for an intricate design on your toe nails.",
+    service7Description : "Many people love traditional nail polish because it can easily to be take off, let Premier nails  & Beauty help you to paint them perfectly",
 
     service8 : "Smoothing Pedicure with normal polish",
     service8Time : "40 mins",
@@ -1324,6 +1308,15 @@ const images = {
     service32Price: "12",
     service32Description: "",
 
+    service33: "Deluxe Pedicure",
+    service33Time: "60 mins",
+    service33Price: "60",
+    service33Description: "Includes everything in Shellac Pedicure plus pedi mask & hot towel wrap. Pamper yourself pretty and indulge in an unforgettable scent-sation of your choice. Seep into deep relaxation or give yourself an energizing lift with the aid of essential oils and minerals.",
+
+    service34: "Hot-Stone Pedicure",
+    service34Time: "60 mins",
+    service34Price: "65",
+    service34Description: "A hot-stone pedicure is a specialized pedicure that uses heated rocks to encourage relaxation in your legs and feet. If your feet undergo wear and tear in daily life, a hot-stone treatment may be just what you need to complement your pedicure. Your toes come out looking clean and pretty, and your legs and feet feel less tense. Indulging in a hot-stone pedicure encourages you to unwind and relax."
 
 
 
@@ -1346,15 +1339,20 @@ const images = {
     service3Price : "70",
     service3Description : "A holistic hair beauty system, Ageloc Nutriol Scalp & Hair System product contain powerfull ingredients for a scientifically advance treatment that, when combined with Ageloc Galvanise Spa, delivers instant benefits for your hair and lasting results up to your sclap. Enjoy a healthier hair appearance that looks & feels thicker, fuller, stronger, softer, shinier. Invest in hair up to your scalp, it’s the crown you wear every day!",
 
-    service4 : "",
-    service4Time : "65 mins",
-    service4Price : "55",
-    service4Description : "",
-  
-    service5 : "",
-    service5Time : "1 hr",
-    service5Price : "55",
-    service5Description : "",
+    service4 : "Dipping Powder SNS",
+    service4Time : "45 mins",
+    service4Price : "32",
+    service4Description : "SNS Dipping Powder creates a stronger polish finish which can help strengthen brittle or weak nails.",
+
+    service5: "Dipping Powder SNS French Tip",
+    service5Time: "45 mins",
+    service5Price: "35",
+    service5Description: "",
+
+    service6: "Dipping Powder SNS Ombre",
+    service6Time: "45 mins",
+    service6Price: "38",
+    service6Description: "",
   }; 
   const serviceList5 = {
     service1 : "Nail Design (from)",
@@ -1386,6 +1384,16 @@ const images = {
     service6Time : "",
     service6Price : "5",
     service6Description : "",
+
+    service7 : "Take off Powder",
+    service7Time : "20 mins",
+    service7Price : "10",
+    service7Description : "Just take off",
+
+    service8 : "Single nails repair (from)",
+    service8Time : "",
+    service8Price : "£3/£5",
+    service8Description : "",
 
   }; 
   
@@ -1561,7 +1569,40 @@ const images = {
     service4Time : "60 mins",
     service4Price : "70",
     service4Description : "Reduce fine line and restore skin to a more youthful look. Facial tissues are stimulatedfor an improved appearance. Provide facial toning, improves facial contouring, thereby making the skin look more voluminous: Tru Face, Features microcurrent technology, Clean & reduces pores.",
+
+    service5 : "BIAB buider gel Fullset",
+    service5Time : "35 mins",
+    service5Price : "40",
+    service5Description : "",
+
+    service6: "BIAB builder gel Overlay",
+    service6Time: "35 mins",
+    service6Price: "35",
+    serviced6Description: "",
+
+    service7 : "BIAB buider gel Infill",
+    service7Time : "30 mins",
+    service7Price : "30",
+    service7Description : "",
   }; 
+
+  const serviceList8 ={
+    service1: "Nails Polish",
+    service1Time: "",
+    service1Price: "6",
+    service1Description: "",
+
+    service2: "Toes Nails Polish",
+    service2Time: "",
+    service2Price: "8",
+    service2Description: "",
+
+    service3: "Pedicure & Manicure",
+    service3Time: "",
+    service3Price: "30",
+    service3Description: "",
+
+  }
   
   export { changedInfo };
   export { processedInfo };
@@ -1582,6 +1623,7 @@ const images = {
   export { serviceList5 };
   export { serviceList6 };
   export { serviceList7 };
+  export { serviceList8 };
 
   export default function Info() {
     return (

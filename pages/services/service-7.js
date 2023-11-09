@@ -13,34 +13,9 @@ export default function Service7(){
             <div className="service">
                 <div className="service-content">
                     <div className="service-content-anh">
-                        <Carousel fade={true} controls={false} interval="1800">
-                            <Carousel.Item>
                                 <div className="carousel-image">
                                     <img className="service-content-anh" alt={imageAlt.serviceList7Image1Alt} src={images.serviceList7Image1} />
                                 </div>
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <div className="carousel-image">
-                                    <img className="service-content-anh" alt={imageAlt.serviceList7Image2Alt} src={images.serviceList7Image2} />
-                                </div>
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <div className="carousel-image">
-                                    <img className="service-content-anh" alt={imageAlt.serviceList7Image3Alt} src={images.serviceList7Image3} />
-                                </div>
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <div className="carousel-image">
-                                    <img className="service-content-anh" alt={imageAlt.serviceList7Image4Alt} src={images.serviceList7Image4} />
-                                </div>
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <div className="carousel-image">
-                                    <img className="service-content-anh" alt={imageAlt.serviceList7Image5Alt} src={images.serviceList7Image5} />
-                                </div>
-                            </Carousel.Item>
-                        </Carousel> 
-                        
                     </div>       
                 </div>
                 <div className="service-content-text">
@@ -51,7 +26,22 @@ export default function Service7(){
                     </div> 
                     <div className="service-content-description">
                         <p className="service-content-description">
-                            {pageContent.serviceCategory7Description} 
+                            {pageContent.serviceCategory7Description1} 
+                        </p>
+                        <p className="service-content-description">
+                            {pageContent.serviceCategory7Description2} 
+                        </p>
+                        <p className="service-content-description">
+                            {pageContent.serviceCategory7Description3} 
+                        </p>
+                        <p className="service-content-description">
+                            {pageContent.serviceCategory7Description4} 
+                        </p>
+                        <p className="service-content-description">
+                            {pageContent.serviceCategory7Description5} 
+                        </p>
+                        <p className="service-content-description">
+                            {pageContent.serviceCategory7Description6} 
                         </p>
                     </div>
                     <div className="button-view-detail-services">

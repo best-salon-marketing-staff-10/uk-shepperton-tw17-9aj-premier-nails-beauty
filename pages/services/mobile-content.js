@@ -8,6 +8,7 @@ import Service4 from '/pages/services/service-4';
 import Service5 from '/pages/services/service-5';
 import Service6 from '/pages/services/service-6';
 import Service7 from '/pages/services/service-7';
+import Service8 from '/pages/services/service-8';
 import Service1PriceList from '/pages/services/service-1-price-list';
 import Service2PriceList from '/pages/services/service-2-price-list';
 import Service3PriceList from '/pages/services/service-3-price-list';
@@ -15,6 +16,7 @@ import Service4PriceList from '/pages/services/service-4-price-list';
 import Service5PriceList from '/pages/services/service-5-price-list';
 import Service6PriceList from '/pages/services/service-6-price-list';
 import Service7PriceList from '/pages/services/service-7-price-list';
+import Service8PriceList from '/pages/services/service-8-price-list';
 import Offers from '/pages/Components/offers/offers';
 
 
@@ -108,6 +110,19 @@ export default function MobileContent(){
                         </div>
                         <div id="m-service-list-7">
                             <Service7PriceList />
+                        </div>
+                        <div className="button">
+                            <Button3 />
+                        </div>
+                    </div>
+                </div>
+                <div className="services-list-8">
+                    <div className="service-container">
+                        <div>
+                            <Service8 />
+                        </div>
+                        <div id="d-service-list-8">
+                        <Service8PriceList />
                         </div>
                         <div className="button">
                             <Button3 />

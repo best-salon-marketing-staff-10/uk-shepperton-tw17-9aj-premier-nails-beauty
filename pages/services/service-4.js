@@ -29,16 +29,6 @@ export default function Service4(){
                                     <img className="d-block w-100" alt={imageAlt.serviceList4Image3Alt} src={images.serviceList4Image3} />
                                 </div>
                             </Carousel.Item>
-                            <Carousel.Item>
-                                <div className="carousel-image">
-                                    <img className="d-block w-100" alt={imageAlt.serviceList4Image4Alt} src={images.serviceList4Image4} />
-                                </div>
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <div className="carousel-image">
-                                    <img className="d-block w-100" alt={imageAlt.serviceList4Image5Alt} src={images.serviceList4Image5} />
-                                </div>
-                            </Carousel.Item>
                         </Carousel> 
                     </div>       
                 </div>
@@ -50,7 +40,7 @@ export default function Service4(){
                     </div> 
                     <div className="service-content-description">
                         <p className="service-content-description">
-                            {pageContent.serviceCategory4Description} 
+                            {pageContent.serviceCategory4Description}   
                         </p>
                     </div>
                     <div className="button-view-detail-services">

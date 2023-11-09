@@ -12,19 +12,17 @@ export default function ContentOurPolicy(){
                 </h1>
                 <div className="content-block">
                     <h2 className="content-heading-h2">
-                        {pageContent.contentOurPolicyHeadingSmall1}
-                    </h2>
-                    <div className="content-description">
-                        {pageContent.contentOurPolicyDescription1}
-                    </div>
-                </div>
-                <div className="content-block">
-                    <h2 className="content-heading-h2">
                         {pageContent.contentOurPolicyHeadingSmall2}
                     </h2>
-                    <div className="content-description">
+                    <p className="content-description">
                         {pageContent.contentOurPolicyDescription2}
-                    </div>
+                    </p>
+                    <p className="content-description">
+                        {pageContent.contentOurPolicyDescription22}
+                    </p>
+                    <p className="content-description">
+                        {pageContent.contentOurPolicyDescription23}
+                    </p>
                 </div>
                 <div className="content-block">
                     <h2 className="content-heading-h2">
@@ -48,11 +46,45 @@ export default function ContentOurPolicy(){
                 </div>
                 <div className="content-block">
                     <h2 className="content-heading-h2">
+                        {pageContent.contentOurPolicyHeadingSmall1}
+                    </h2>
+                    <p className="content-description">
+                        {pageContent.contentOurPolicyDescription1}
+                    </p>
+                    <p className="content-description">
+                        {pageContent.contentOurPolicyDescription12}
+                    </p>
+                    <p className="content-description">
+                        {pageContent.contentOurPolicyDescription13}
+                    </p>
+                    <p className="content-description">
+                        {pageContent.contentOurPolicyDescription14}
+                    </p>
+                </div>
+                <div className="content-block">
+                    <h2 className="content-heading-h2">
                         {pageContent.contentOurPolicyHeadingSmall5}
                     </h2>
                     <div className="content-description">
                         {pageContent.contentOurPolicyDescription5}
                     </div>
+                </div>
+                <div className="content-block">
+                    <h2 className="content-heading-h2">
+                        {pageContent.contentOurPolicyHeadingSmall6}
+                    </h2>
+                    <p className="content-description">
+                        {pageContent.contentOurPolicyDescription6}
+                    </p>
+                    <p className="content-description">
+                        {pageContent.contentOurPolicyDescription61}
+                    </p>
+                    <p className="content-description">
+                        {pageContent.contentOurPolicyDescription62}
+                    </p>
+                    <p className="content-description">
+                        {pageContent.contentOurPolicyDescription63}
+                    </p>
                 </div>
             </div>
         </>
