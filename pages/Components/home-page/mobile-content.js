@@ -32,7 +32,7 @@ export default function MobileContent(){
                         <Carousel fade={true} controls={false} interval="1800">
                             <Carousel.Item>
                                 <div className="carousel-image">
-                                    <img className="d-block w-100" alt={imageAlt.mobileAboutUsImage1Alt} src={images.mobileAboutUsImage1} />
+                                    <img className="d-block-w-100" alt={imageAlt.mobileAboutUsImage1Alt} src={images.mobileAboutUsImage1} />
                                 </div>
                                 <div className="first-screen-block-bottom">
                                     <h1 className="first-screen-block-title">
@@ -45,7 +45,7 @@ export default function MobileContent(){
                             </Carousel.Item>
                             <Carousel.Item>
                                 <div className="carousel-image">
-                                    <img className="d-block w-100" alt={imageAlt.mobileAboutUsImage2Alt} src={images.mobileAboutUsImage2} />
+                                    <img className="d-block-w-100" alt={imageAlt.mobileAboutUsImage2Alt} src={images.mobileAboutUsImage2} />
                                 </div>
                                 <div className="first-screen-block-bottom">
                                     <h1 className="first-screen-block-title">
@@ -58,7 +58,7 @@ export default function MobileContent(){
                             </Carousel.Item>
                             <Carousel.Item>
                                 <div className="carousel-image">
-                                    <img className="d-block w-100" alt={imageAlt.mobileAboutUsImage3Alt} src={images.mobileAboutUsImage3} />
+                                    <img className="d-block-w-100" alt={imageAlt.mobileAboutUsImage3Alt} src={images.mobileAboutUsImage3} />
                                 </div>
                                 <div className="first-screen-block-bottom">
                                     <h1 className="first-screen-block-title">

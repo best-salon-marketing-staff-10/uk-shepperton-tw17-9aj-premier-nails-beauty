@@ -32,7 +32,7 @@ export default function DesktopContent(){
                         <Carousel fade={true} controls={false} interval="1800">
                             <Carousel.Item>
                                 <div className="desktop-about-us-carousel-image">
-                                    <img className="d-block w-100" alt={imageAlt.desktopAboutUsImage1Alt} src={images.desktopAboutUsImage1} />
+                                    <img className="d-block-w-100" alt={imageAlt.desktopAboutUsImage1Alt} src={images.desktopAboutUsImage1} />
                                 </div>
                                 <div className="first-screen-block-bottom">
                                     <h1 className="first-screen-block-title">
@@ -45,7 +45,7 @@ export default function DesktopContent(){
                             </Carousel.Item>
                             <Carousel.Item>
                                 <div className="desktop-about-us-carousel-image">
-                                    <img className="d-block w-100" alt={imageAlt.desktopAboutUsImage2Alt} src={images.desktopAboutUsImage2} />
+                                    <img className="d-block-w-100" alt={imageAlt.desktopAboutUsImage2Alt} src={images.desktopAboutUsImage2} />
                                 </div>
                                 <div className="first-screen-block-bottom">
                                     <h1 className="first-screen-block-title">
@@ -58,7 +58,7 @@ export default function DesktopContent(){
                             </Carousel.Item>
                             <Carousel.Item>
                                 <div className="desktop-about-us-carousel-image">
-                                    <img className="d-block w-100" alt={imageAlt.desktopAboutUsImage3Alt} src={images.desktopAboutUsImage3} />
+                                    <img className="d-block-w-100" alt={imageAlt.desktopAboutUsImage3Alt} src={images.desktopAboutUsImage3} />
                                 </div>
                                 <div className="first-screen-block-bottom">
                                     <h1 className="first-screen-block-title">

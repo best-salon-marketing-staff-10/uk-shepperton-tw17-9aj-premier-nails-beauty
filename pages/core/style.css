@@ -240,6 +240,11 @@
     text-align: center;
     border-radius: 0px;
   }
+
+  .d-block-w-100{
+    border-radius: 0px;
+  }
+
   .first-screen-block-title{
     margin-left: 20px;
     margin-right: 20px;
