@@ -141,7 +141,7 @@ const menu = {
   mainMenu2: "About us",
   mainMenu3: "Book Now",
   mainMenu4: "Services",
-  mainMenu5: "Our Policies",
+  mainMenu5: "Salon Policy",
   mainMenu6: "Contact us",
 
   linkToMainMenu1: "/",
@@ -633,7 +633,7 @@ const pageContent = {
   contentOurPolicyHeadingSmall5: "Gift Cards",
   contentOurPolicyHeadingSmall6: "Notes",
   contentOurPolicyDescription1: "1. No cash refund will be given After you have left the salon.",
-  contentOurPolicyDescription12: "2. If you have  any problem concern to the service, staff ..., please inform us at the till point.",
+  contentOurPolicyDescription12: "2. If you have  any problem concern to the service, staff..., please inform us at the till point.",
   contentOurPolicyDescription13: "3. If you paid and left the salon, we will consider that you accepted and were happy with the complete result of the service / staff.",
   contentOurPolicyDescription14: "4. No refund will be given just because you simply changed your mind.",
   contentOurPolicyDescription2: "1. Traditional polish is not guaranteed",
@@ -663,7 +663,7 @@ const pageContent = {
   serviceCategory5Description: "Step into our " + seoKeyword.seoKeyword15 + " and let our team of experts bring your nail design dreams to life. With high-quality products and meticulous attention to detail, we guarantee that your nails will be the envy of all your friends. Come visit us and let us transform your nails into a work of art.",
   
   //service-6.js
-  serviceCategory6Description: "We offer waxing service. Our estheticians use the latest techniques and products to ensure your hair removal experience is as smooth and gentle as possible.",
+  serviceCategory6Description: "We offer eyebrow, eyelash..., and waxing services. Our estheticians use the latest techniques and products to ensure your hair removal experience is as smooth and gentle as possible.",
 
   //service-7.js
   serviceCategory7Description1: "Builder Gel - Adds strength and thickness to nails, and remains natural looking, and it is available in a range of skin tones.",
@@ -674,7 +674,7 @@ const pageContent = {
   serviceCategory7Description6: "As the regrowth is far too much and it weakens the natural nail, it can affect the natural nails stability, the natural nail undereath, has not been checked and anything could be going on.",
 
   //service-8.js
-  serviceCategory8Description: "Under 12 years old",
+  serviceCategory8Description: "We provide nail services at more favorable prices for girls under 12 years old. Note that girls need the consent of their parents or legal guardians when getting their nails done at the salon.",
 
   locationHeading: "LOCATION",
   timeScheduleHeading: "OPENING HOURS",
