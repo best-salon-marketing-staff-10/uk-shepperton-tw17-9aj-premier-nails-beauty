@@ -141,7 +141,7 @@ const menu = {
   mainMenu2: "About us",
   mainMenu3: "Book Now",
   mainMenu4: "Services",
-  mainMenu5: "Salon Policy",
+  mainMenu5: "Salon Policies",
   mainMenu6: "Contact us",
 
   linkToMainMenu1: "/",
@@ -625,7 +625,7 @@ const pageContent = {
   customerReviewDescription: "",
 
   //content-our-policy.js
-  contentOurPolicyHeadingMain: "SALON POLICY",
+  contentOurPolicyHeadingMain: "SALON POLICIES",
   contentOurPolicyHeadingSmall1: "Refunds",
   contentOurPolicyHeadingSmall2: "Guarantee",
   contentOurPolicyHeadingSmall3: "Tardiness",
