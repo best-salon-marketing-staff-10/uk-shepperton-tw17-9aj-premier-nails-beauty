@@ -585,7 +585,7 @@ const schemaData = {
 const pageContent = {
   //our-story.js
   ourStoryHeading: "Our " + seoKeyword.seoKeyword1 + " story",
-  ourStoryDescription: "Located at " + changedInfo.businessAddressLevel1 + ", we are a nail shop in " + changedInfo.businessAddressLevel2 + ". Skilled manicurists and pedicurists look forward to bringing you the best products and services. We are always researching and learning the best products and services, trendy nails, to bring more and more satisfaction to customers who are coming to us.",
+  ourStoryDescription: "Located at " + changedInfo.businessAddressLevel1 + ", we are a nail shop in " + changedInfo.businessAddressLevel2 + ". Skilled manicurists and pedicurists look forward to bringing you the best products and services. We are always researching and learning the best products and services, trendy nails, to bring more and more satisfaction to customers who are coming to us. The salon provides car parking facilities and drinks machines of all kinds, our modern pedicure chairs come equipped with a full-body massage system.",
 
   //dong-vien-1.js
   section1Heading: "We are " + seoKeyword.seoKeyword3 + " experienced manicurists and pedicurists",

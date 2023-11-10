@@ -20,22 +20,59 @@ import Offers from '/pages/Components/offers/offers';
 import { imageAlt } from '/pages/core/info';
 import { pageContent } from '/pages/core/info';
 import { images } from '/pages/core/info';
+import Carousel from 'react-bootstrap/Carousel'
 
 export default function DesktopContent(){
     return(
         <>
             <div className="desktop-content">
-
+                
                 <div className="first-screen-block">
-                    <img className="first-screen-block-anh" alt={imageAlt.desktopCarouselImage1Alt} src={images.desktopCarouselImage1} />
-                    <div className="first-screen-block-bottom">
-                        <h1 className="first-screen-block-title">
-                            {pageContent.carouselHeading}
-                        </h1>
-                        <div className="button">
-                            <Button1 />
-                        </div>
-                    </div>              
+                    <div>
+                        <Carousel fade={true} controls={false} interval="1800">
+                            <Carousel.Item>
+                                <div className="desktop-about-us-carousel-image">
+                                    <img className="d-block w-100" alt={imageAlt.desktopAboutUsImage1Alt} src={images.desktopAboutUsImage1} />
+                                </div>
+                                <div className="first-screen-block-bottom">
+                                    <h1 className="first-screen-block-title">
+                                        {pageContent.carouselHeading}
+                                    </h1>
+                                    <div className="button">
+                                        <Button1 />
+                                    </div>
+                                </div>   
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <div className="desktop-about-us-carousel-image">
+                                    <img className="d-block w-100" alt={imageAlt.desktopAboutUsImage2Alt} src={images.desktopAboutUsImage2} />
+                                </div>
+                                <div className="first-screen-block-bottom">
+                                    <h1 className="first-screen-block-title">
+                                        {pageContent.carouselHeading}
+                                    </h1>
+                                    <div className="button">
+                                        <Button1 />
+                                    </div>
+                                </div>   
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <div className="desktop-about-us-carousel-image">
+                                    <img className="d-block w-100" alt={imageAlt.desktopAboutUsImage3Alt} src={images.desktopAboutUsImage3} />
+                                </div>
+                                <div className="first-screen-block-bottom">
+                                    <h1 className="first-screen-block-title">
+                                        {pageContent.carouselHeading}
+                                    </h1>
+                                    <div className="button">
+                                        <Button1 />
+                                    </div>
+                                </div>   
+                            </Carousel.Item>
+                        </Carousel> 
+                   
+                    </div>
+                               
                 </div>
                 <div className="nhan-manh-1" id="d-section-1">
                     <NhanManh1 />

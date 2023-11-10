@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import Carousel from 'react-bootstrap/Carousel';
 import Button2 from '/pages/Components/buttons/button-2.js';
 import TimeSchedule from '/pages/Components/time-schedule/time-schedule.js';
 import DongVien1 from '/pages/Components/dong-vien/dong-vien-1.js';
@@ -18,26 +17,7 @@ export default function MobileContent(){
     return(
         <>
             <div className="mobile-about-us">
-                <div>
-                    <Carousel fade={true} controls={false} interval="1800">
-                        <Carousel.Item>
-                            <div className="carousel-image">
-                                <img className="d-block w-100" alt={imageAlt.mobileAboutUsImage1Alt} src={images.mobileAboutUsImage1} />
-                            </div>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <div className="carousel-image">
-                                <img className="d-block w-100" alt={imageAlt.mobileAboutUsImage2Alt} src={images.mobileAboutUsImage2} />
-                            </div>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <div className="carousel-image">
-                                <img className="d-block w-100" alt={imageAlt.mobileAboutUsImage3Alt} src={images.mobileAboutUsImage3} />
-                            </div>
-                        </Carousel.Item>
-                    </Carousel> 
-                </div>
-
+                <img className="first-screen-block-anh" alt={imageAlt.mobileCarouselImage1Alt} src={images.mobileCarouselImage1} />
                 <div className="mobile-about-us-our-story">
                     <OurStory />
                 </div>

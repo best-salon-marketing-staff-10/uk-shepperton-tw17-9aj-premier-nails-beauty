@@ -21,22 +21,57 @@ import Offers from '/pages/Components/offers/offers';
 import { imageAlt } from '/pages/core/info';
 import { pageContent } from '/pages/core/info';
 import { images } from '/pages/core/info';
+import Carousel from 'react-bootstrap/Carousel';
 
 export default function MobileContent(){
     return(
         <>
             <div className="mobile-content">
                 <div className="first-screen-block">
-                    <img className="first-screen-block-anh" alt={imageAlt.mobileCarouselImage1Alt} 
-                            src={images.mobileCarouselImage1} />
-                    <div className="first-screen-block-bottom">
-                        <h1 className="first-screen-block-title">
-                            {pageContent.carouselHeading}
-                        </h1>
-                        <div className="button">
-                            <Button1 />
-                        </div>
+                    <div>
+                        <Carousel fade={true} controls={false} interval="1800">
+                            <Carousel.Item>
+                                <div className="carousel-image">
+                                    <img className="d-block w-100" alt={imageAlt.mobileAboutUsImage1Alt} src={images.mobileAboutUsImage1} />
+                                </div>
+                                <div className="first-screen-block-bottom">
+                                    <h1 className="first-screen-block-title">
+                                        {pageContent.carouselHeading}
+                                    </h1>
+                                    <div className="button">
+                                        <Button1 />
+                                    </div>
+                                </div>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <div className="carousel-image">
+                                    <img className="d-block w-100" alt={imageAlt.mobileAboutUsImage2Alt} src={images.mobileAboutUsImage2} />
+                                </div>
+                                <div className="first-screen-block-bottom">
+                                    <h1 className="first-screen-block-title">
+                                        {pageContent.carouselHeading}
+                                    </h1>
+                                    <div className="button">
+                                        <Button1 />
+                                    </div>
+                                </div>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <div className="carousel-image">
+                                    <img className="d-block w-100" alt={imageAlt.mobileAboutUsImage3Alt} src={images.mobileAboutUsImage3} />
+                                </div>
+                                <div className="first-screen-block-bottom">
+                                    <h1 className="first-screen-block-title">
+                                        {pageContent.carouselHeading}
+                                    </h1>
+                                    <div className="button">
+                                        <Button1 />
+                                    </div>
+                                </div>
+                            </Carousel.Item>
+                        </Carousel> 
                     </div>
+                    
                 </div>
                 <div className="nhan-manh-1" id="m-section-1">
                     <NhanManh1 />

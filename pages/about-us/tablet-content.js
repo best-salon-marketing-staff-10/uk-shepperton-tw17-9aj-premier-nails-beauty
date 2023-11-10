@@ -7,7 +7,6 @@ import DongVien2 from '/pages/Components/dong-vien/dong-vien-2.js'
 import DongVien3 from '/pages/Components/dong-vien/dong-vien-3.js'
 import CustomerReview from '/pages/Components/customer-review.js'
 import OurStory from '/pages/about-us/our-story'
-import Carousel from 'react-bootstrap/Carousel'
 import "/node_modules/bootstrap/dist/css/bootstrap.css"
 import { images } from '/pages/core/info';
 import { imageAlt } from '/pages/core/info';
@@ -18,26 +17,7 @@ export default function TabletContent(){
     return(
         <>
             <div className="tablet-about-us">
-                <div>
-                    <Carousel fade={true} controls={false} interval="1800">
-                        <Carousel.Item>
-                            <div className="carousel-image">
-                                <img className="d-block w-100" alt={imageAlt.tabletAboutUsImage1Alt} src={images.tabletAboutUsImage1} />
-                            </div>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <div className="carousel-image">
-                                <img className="d-block w-100" alt={imageAlt.tabletAboutUsImage2Alt} src={images.tabletAboutUsImage2} />
-                            </div>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <div className="carousel-image">
-                                <img className="d-block w-100" alt={imageAlt.tabletAboutUsImage3Alt} src={images.tabletAboutUsImage3} />
-                            </div>
-                        </Carousel.Item>
-                    </Carousel> 
-                </div>
-
+                <img className="first-screen-block-anh" alt={imageAlt.tabletCarouselImage1Alt} src={images.tabletCarouselImage1} />
                 <div className="tablet-about-us-our-story">
                     <OurStory />
                 </div>

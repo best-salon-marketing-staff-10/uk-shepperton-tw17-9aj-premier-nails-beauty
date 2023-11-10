@@ -7,7 +7,6 @@ import DongVien2 from '/pages/Components/dong-vien/dong-vien-2.js'
 import DongVien3 from '/pages/Components/dong-vien/dong-vien-3'
 import CustomerReview from '/pages/Components/customer-review.js'
 import OurStory from '/pages/about-us/our-story'
-import Carousel from 'react-bootstrap/Carousel'
 import "/node_modules/bootstrap/dist/css/bootstrap.css"
 import { images } from '/pages/core/info';
 import { imageAlt } from '/pages/core/info';
@@ -20,25 +19,7 @@ export default function DesktopContent(){
     return(
         <>
             <div className="desktop-about-us">
-                <div>
-                    <Carousel fade={true} controls={false} interval="1800">
-                        <Carousel.Item>
-                            <div className="desktop-about-us-carousel-image">
-                                <img className="d-block w-100" alt={imageAlt.desktopAboutUsImage1Alt} src={images.desktopAboutUsImage1} />
-                            </div>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <div className="desktop-about-us-carousel-image">
-                                <img className="d-block w-100" alt={imageAlt.desktopAboutUsImage2Alt} src={images.desktopAboutUsImage2} />
-                            </div>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <div className="desktop-about-us-carousel-image">
-                                <img className="d-block w-100" alt={imageAlt.desktopAboutUsImage3Alt} src={images.desktopAboutUsImage3} />
-                            </div>
-                        </Carousel.Item>
-                    </Carousel> 
-                </div>
+                <img className="first-screen-block-anh" alt={imageAlt.desktopCarouselImage1Alt} src={images.desktopCarouselImage1} />
                 <div className="desktop-about-us-our-story">
                     <OurStory />
                 </div>
