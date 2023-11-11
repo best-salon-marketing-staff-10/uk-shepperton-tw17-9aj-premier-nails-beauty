@@ -39,6 +39,36 @@ export default function Service4PriceList(){
                     <div className="price-list-details-services-item">
                         <div className="price-list-details-services-name">
                             <span className="price-list-details-services-name">
+                                {serviceList4.service7}
+                            </span>
+                            <span className="price-list-details-services-name-notice">
+                                
+                            </span>
+                        </div>
+                        <div className="price-list-details-services-time">
+                            <span className="price-list-details-services-time">
+                                {serviceList4.service7Time}
+                            </span>
+                        </div>
+                        <div className="price-list-details-services-description">
+                            <span className="price-list-details-services-description">
+                                {serviceList4.service7Description}
+                            </span>
+                        </div>
+                    </div>
+                    <div className="price-list-details-services-price">
+                        <span className="price-list-addition-info">
+                            
+                        </span>
+                        <span className="price-list-details-services-price">
+                           {serviceList4.service7Price}
+                        </span>
+                    </div>
+                </div>
+                <div className="price-list-details-services-container">
+                    <div className="price-list-details-services-item">
+                        <div className="price-list-details-services-name">
+                            <span className="price-list-details-services-name">
                                 {serviceList4.service5}
                             </span>
                             <span className="price-list-details-services-name-notice">

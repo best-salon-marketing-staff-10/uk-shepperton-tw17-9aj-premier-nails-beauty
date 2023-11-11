@@ -24,40 +24,13 @@ export default function TabletContent(){
     return(
         <>
             <div className="services-list">
-                <div className="services-list-1">
+            <div className="services-list-1">
                     <div className="service-container">
                         <div>
-                            <Service1 />
+                                <Service1 />
                         </div>
-                        <div id="t-service-list-1">
+                        <div id="d-service-list-1">
                             <Service1PriceList />
-                        </div>
-                        
-                        <div className="button">
-                            <Button3 />
-                        </div>
-                    </div>
-                </div>
-                    <div className="services-list-2">
-                        <div className="service-container">
-                        <div>
-                            <Service2 />
-                        </div>
-                        <div id="t-service-list-2">
-                            <Service2PriceList />
-                        </div>
-                        <div className="button">
-                            <Button3 />
-                        </div>
-                    </div>
-                </div>
-                <div className="services-list-3">
-                    <div className="service-container">
-                        <div>
-                            <Service3 />
-                        </div>
-                        <div id="t-service-list-3">
-                            <Service3PriceList />
                         </div>
                         <div className="button">
                             <Button3 />
@@ -69,35 +42,8 @@ export default function TabletContent(){
                         <div>
                             <Service4 />
                         </div>
-                        <div id="t-service-list-4">
+                        <div id="d-service-list-4">
                             <Service4PriceList />
-                        </div>
-                        <div className="button">
-                            <Button3 />
-                        </div>
-                    </div>
-                </div>
-                
-                <div className="services-list-5">
-                    <div className="service-container">
-                        <div>
-                            <Service5 />
-                        </div>
-                        <div id="t-service-list-5">
-                            <Service5PriceList />
-                        </div>
-                        <div className="button">
-                            <Button3 />
-                        </div>
-                    </div>
-                </div>
-                <div className="services-list-6">
-                    <div className="service-container">
-                        <div>
-                            <Service6 />
-                        </div>
-                        <div id="t-service-list-6">
-                            <Service6PriceList />
                         </div>
                         <div className="button">
                             <Button3 />
@@ -109,8 +55,34 @@ export default function TabletContent(){
                         <div>
                             <Service7 />
                         </div>
-                        <div id="t-service-list-7">
-                            <Service7PriceList />
+                        <div id="d-service-list-7">
+                        <Service7PriceList />
+                        </div>
+                        <div className="button">
+                            <Button3 />
+                        </div>
+                    </div>
+                </div>
+                <div className="services-list-3">
+                    <div className="service-container">
+                        <div>
+                            <Service3 />
+                        </div>
+                        <div id="d-service-list-3">
+                            <Service3PriceList />
+                        </div>
+                        <div className="button">
+                            <Button3 />
+                        </div>
+                    </div>
+                </div>
+                <div className="services-list-2">
+                    <div className="service-container">
+                        <div>
+                            <Service2 />
+                        </div>
+                        <div id="d-service-list-2">
+                            <Service2PriceList />
                         </div>
                         <div className="button">
                             <Button3 />
@@ -124,6 +96,32 @@ export default function TabletContent(){
                         </div>
                         <div id="d-service-list-8">
                         <Service8PriceList />
+                        </div>
+                        <div className="button">
+                            <Button3 />
+                        </div>
+                    </div>
+                </div>
+                <div className="services-list-5">
+                    <div className="service-container">
+                        <div>
+                            <Service5 />
+                        </div>
+                        <div id="d-service-list-5">
+                            <Service5PriceList />
+                        </div>
+                        <div className="button">
+                            <Button3 />
+                        </div>
+                    </div>
+                </div>
+                <div className="services-list-6">
+                    <div className="service-container">
+                        <div>
+                            <Service6 />
+                        </div>
+                        <div id="d-service-list-6">
+                        <Service6PriceList />
                         </div>
                         <div className="button">
                             <Button3 />

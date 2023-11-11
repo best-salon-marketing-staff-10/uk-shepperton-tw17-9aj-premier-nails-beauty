@@ -52,9 +52,16 @@ export default function TabletFooter(){
                                     </Link>
                                 </h3>
                                 <h3 className="footer-navigation-item-detail-services">
-                                    <Link href={serviceCategory.tabletLinkToServiceCategory2}>
-                                        <a className="services-list-2">
-                                            {serviceCategory.serviceCategory2}
+                                    <Link href={serviceCategory.tabletLinkToServiceCategory4}>
+                                        <a className="services-list-4">
+                                            {serviceCategory.serviceCategory4}
+                                        </a>
+                                    </Link>
+                                </h3>
+                                <h3 className="footer-navigation-item-detail-services">
+                                    <Link href={serviceCategory.tabletLinkToServiceCategory7}>
+                                        <a className="services-list-7">
+                                            {serviceCategory.serviceCategory7}
                                         </a>
                                     </Link>
                                 </h3>
@@ -66,9 +73,16 @@ export default function TabletFooter(){
                                     </Link>
                                 </h3>
                                 <h3 className="footer-navigation-item-detail-services">
-                                    <Link href={serviceCategory.tabletLinkToServiceCategory4}>
-                                        <a className="services-list-4">
-                                            {serviceCategory.serviceCategory4}
+                                    <Link href={serviceCategory.tabletLinkToServiceCategory2}>
+                                        <a className="services-list-2">
+                                            {serviceCategory.serviceCategory2}
+                                        </a>
+                                    </Link>
+                                </h3>
+                                <h3 className="footer-navigation-item-detail-services">
+                                    <Link href={serviceCategory.tabletLinkToServiceCategory8}>
+                                        <a className="services-list-8">
+                                            Princess nails (under 12 years old)
                                         </a>
                                     </Link>
                                 </h3>
@@ -84,13 +98,6 @@ export default function TabletFooter(){
                                     <Link href={serviceCategory.tabletLinkToServiceCategory6}>
                                         <a className="services-list-6">
                                             {serviceCategory.serviceCategory6}
-                                        </a>
-                                    </Link>
-                                </h3>
-                                <h3 className="footer-navigation-item-detail-services">
-                                    <Link href={serviceCategory.tabletLinkToServiceCategory7}>
-                                        <a className="services-list-7">
-                                            {serviceCategory.serviceCategory7}
                                         </a>
                                     </Link>
                                 </h3>

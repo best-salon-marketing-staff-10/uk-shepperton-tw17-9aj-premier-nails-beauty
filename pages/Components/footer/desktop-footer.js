@@ -54,9 +54,16 @@ export default function DesktopFooter(){
                                     </Link>
                                 </h3>
                                 <h3 className="footer-navigation-item-detail-services">
-                                    <Link href={serviceCategory.desktopLinkToServiceCategory2}>
-                                        <a className="services-list-2">
-                                            {serviceCategory.serviceCategory2}
+                                    <Link href={serviceCategory.desktopLinkToServiceCategory4}>
+                                        <a className="services-list-4">
+                                            {serviceCategory.serviceCategory4}
+                                        </a>
+                                    </Link>
+                                </h3>
+                                <h3 className="footer-navigation-item-detail-services">
+                                    <Link href={serviceCategory.desktopLinkToServiceCategory7}>
+                                        <a className="services-list-7">
+                                            {serviceCategory.serviceCategory7}
                                         </a>
                                     </Link>
                                 </h3>
@@ -68,9 +75,16 @@ export default function DesktopFooter(){
                                     </Link>
                                 </h3>
                                 <h3 className="footer-navigation-item-detail-services">
-                                    <Link href={serviceCategory.desktopLinkToServiceCategory4}>
-                                        <a className="services-list-4">
-                                            {serviceCategory.serviceCategory4}
+                                    <Link href={serviceCategory.desktopLinkToServiceCategory2}>
+                                        <a className="services-list-2">
+                                            {serviceCategory.serviceCategory2}
+                                        </a>
+                                    </Link>
+                                </h3>
+                                <h3 className="footer-navigation-item-detail-services">
+                                    <Link href={serviceCategory.desktopLinkToServiceCategory8}>
+                                        <a className="services-list-8">
+                                            Princess nails (under 12 years old)
                                         </a>
                                     </Link>
                                 </h3>
@@ -85,13 +99,6 @@ export default function DesktopFooter(){
                                     <Link href={serviceCategory.desktopLinkToServiceCategory6}>
                                         <a className="services-list-6">
                                             {serviceCategory.serviceCategory6}
-                                        </a>
-                                    </Link>
-                                </h3>
-                                <h3 className="footer-navigation-item-detail-services">
-                                    <Link href={serviceCategory.desktopLinkToServiceCategory7}>
-                                        <a className="services-list-7">
-                                            {serviceCategory.serviceCategory7}
                                         </a>
                                     </Link>
                                 </h3>

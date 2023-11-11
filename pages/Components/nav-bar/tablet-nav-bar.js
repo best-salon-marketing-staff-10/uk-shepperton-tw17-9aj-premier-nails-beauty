@@ -63,14 +63,23 @@ export default function TabletNavBar(){
                                                 </div>
                                             </div>
                                             <div className="nav-bar-services-sub-category-details">
-                                                <div className="services-list-2">
-                                                    <Link href={serviceCategory.tabletLinkToServiceCategory2}>
+                                                <div className="services-list-4">
+                                                    <Link href={serviceCategory.tabletLinkToServiceCategory4}>
                                                         <a className="nav-bar-link-service-category">
-                                                            {serviceCategory.serviceCategory2}
+                                                            {serviceCategory.serviceCategory4}
                                                         </a>
                                                     </Link>
                                                 </div>
-                                            </div>    
+                                            </div> 
+                                            <div className="nav-bar-services-sub-category-details">
+                                                <div className="services-list-7">
+                                                    <Link href={serviceCategory.tabletLinkToServiceCategory7}>
+                                                        <a className="nav-bar-link-service-category">
+                                                            {serviceCategory.serviceCategory7}
+                                                        </a>
+                                                    </Link>
+                                                </div>
+                                            </div> 
                                             <div className="nav-bar-services-sub-category-details">
                                                 <div className="services-list-3">
                                                     <Link href={serviceCategory.tabletLinkToServiceCategory3}>
@@ -81,10 +90,19 @@ export default function TabletNavBar(){
                                                 </div>
                                             </div> 
                                             <div className="nav-bar-services-sub-category-details">
-                                                <div className="services-list-4">
-                                                    <Link href={serviceCategory.tabletLinkToServiceCategory4}>
+                                                <div className="services-list-2">
+                                                    <Link href={serviceCategory.tabletLinkToServiceCategory2}>
                                                         <a className="nav-bar-link-service-category">
-                                                            {serviceCategory.serviceCategory4}
+                                                            {serviceCategory.serviceCategory2}
+                                                        </a>
+                                                    </Link>
+                                                </div>
+                                            </div>    
+                                            <div className="nav-bar-services-sub-category-details">
+                                                <div className="services-list-8">
+                                                    <Link href={serviceCategory.tabletLinkToServiceCategory8}>
+                                                        <a className="nav-bar-link-service-category">
+                                                            Princess nails (under 12 years old)
                                                         </a>
                                                     </Link>
                                                 </div>
@@ -103,24 +121,6 @@ export default function TabletNavBar(){
                                                     <Link href={serviceCategory.tabletLinkToServiceCategory6}>
                                                         <a className="nav-bar-link-service-category">
                                                             {serviceCategory.serviceCategory6}
-                                                        </a>
-                                                    </Link>
-                                                </div>
-                                            </div> 
-                                            <div className="nav-bar-services-sub-category-details">
-                                                <div className="services-list-7">
-                                                    <Link href={serviceCategory.tabletLinkToServiceCategory7}>
-                                                        <a className="nav-bar-link-service-category">
-                                                            {serviceCategory.serviceCategory7}
-                                                        </a>
-                                                    </Link>
-                                                </div>
-                                            </div> 
-                                            <div className="nav-bar-services-sub-category-details">
-                                                <div className="services-list-8">
-                                                    <Link href={serviceCategory.tabletLinkToServiceCategory8}>
-                                                        <a className="nav-bar-link-service-category">
-                                                            {serviceCategory.serviceCategory8}
                                                         </a>
                                                     </Link>
                                                 </div>

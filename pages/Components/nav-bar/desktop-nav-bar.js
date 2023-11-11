@@ -64,14 +64,23 @@ export default function DesktopNavBar(){
                                                 </h3>
                                             </div>
                                             <div className="nav-bar-services-sub-category-details">
-                                                <h3 className="services-list-2">
-                                                    <Link href={serviceCategory.desktopLinkToServiceCategory2}>
+                                                <h3 className="services-list-4">
+                                                    <Link href={serviceCategory.desktopLinkToServiceCategory4}>
                                                         <a className="nav-bar-link-service-category">
-                                                            {serviceCategory.serviceCategory2}
+                                                            {serviceCategory.serviceCategory4}
                                                         </a>
                                                     </Link>
                                                 </h3>
-                                            </div>    
+                                            </div> 
+                                            <div className="nav-bar-services-sub-category-details">
+                                                <h3 className="services-list-7">
+                                                    <Link href={serviceCategory.desktopLinkToServiceCategory7}>
+                                                        <a className="nav-bar-link-service-category">
+                                                            {serviceCategory.serviceCategory7}
+                                                        </a>
+                                                    </Link>
+                                                </h3>
+                                            </div> 
                                             <div className="nav-bar-services-sub-category-details">
                                                 <h3 className="services-list-3">
                                                     <Link href={serviceCategory.desktopLinkToServiceCategory3}>
@@ -82,10 +91,19 @@ export default function DesktopNavBar(){
                                                 </h3>
                                             </div> 
                                             <div className="nav-bar-services-sub-category-details">
-                                                <h3 className="services-list-4">
-                                                    <Link href={serviceCategory.desktopLinkToServiceCategory4}>
+                                                <h3 className="services-list-2">
+                                                    <Link href={serviceCategory.desktopLinkToServiceCategory2}>
                                                         <a className="nav-bar-link-service-category">
-                                                            {serviceCategory.serviceCategory4}
+                                                            {serviceCategory.serviceCategory2}
+                                                        </a>
+                                                    </Link>
+                                                </h3>
+                                            </div>    
+                                            <div className="nav-bar-services-sub-category-details">
+                                                <h3 className="services-list-8">
+                                                    <Link href={serviceCategory.desktopLinkToServiceCategory8}>
+                                                        <a className="nav-bar-link-service-category">
+                                                            Princess nails (under 12 years old)
                                                         </a>
                                                     </Link>
                                                 </h3>
@@ -104,24 +122,6 @@ export default function DesktopNavBar(){
                                                     <Link href={serviceCategory.desktopLinkToServiceCategory6}>
                                                         <a className="nav-bar-link-service-category">
                                                             {serviceCategory.serviceCategory6}
-                                                        </a>
-                                                    </Link>
-                                                </h3>
-                                            </div> 
-                                            <div className="nav-bar-services-sub-category-details">
-                                                <h3 className="services-list-7">
-                                                    <Link href={serviceCategory.desktopLinkToServiceCategory7}>
-                                                        <a className="nav-bar-link-service-category">
-                                                            {serviceCategory.serviceCategory7}
-                                                        </a>
-                                                    </Link>
-                                                </h3>
-                                            </div> 
-                                            <div className="nav-bar-services-sub-category-details">
-                                                <h3 className="services-list-8">
-                                                    <Link href={serviceCategory.desktopLinkToServiceCategory8}>
-                                                        <a className="nav-bar-link-service-category">
-                                                            {serviceCategory.serviceCategory8}
                                                         </a>
                                                     </Link>
                                                 </h3>

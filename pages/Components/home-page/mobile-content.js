@@ -13,6 +13,7 @@ import Service4 from '/pages/services/service-4';
 import Service5 from '/pages/services/service-5';
 import Service6 from '/pages/services/service-6';
 import Service7 from '/pages/services/service-7';
+import Service8 from '/pages/services/service-8';
 import NhanManh1 from '/pages/Components/dong-vien/nhan-manh-1';
 import NhanManh2 from '/pages/Components/dong-vien/nhan-manh-2';
 import NhanManh3 from '/pages/Components/dong-vien/nhan-manh-3';
@@ -103,9 +104,14 @@ export default function MobileContent(){
                             <Service1 />
                         </div>
                     </div>
-                    <div className="services-list-2">
+                    <div className="services-list-4">
                         <div className="service-container">
-                            <Service2 />
+                            <Service4 />
+                        </div>
+                    </div>
+                    <div className="services-list-7">
+                        <div className="service-container">
+                            <Service7 />
                         </div>
                     </div>
                     <div className="services-list-3">
@@ -113,9 +119,14 @@ export default function MobileContent(){
                             <Service3 />
                         </div>
                     </div>
-                    <div className="services-list-4">
+                    <div className="services-list-2">
                         <div className="service-container">
-                            <Service4 />
+                            <Service2 />
+                        </div>
+                    </div>
+                    <div className="services-list-8">
+                        <div className="service-container">
+                            <Service8 />
                         </div>
                     </div>
                     <div className="services-list-5">
@@ -126,11 +137,6 @@ export default function MobileContent(){
                     <div className="services-list-6">
                         <div className="service-container">
                             <Service6 />
-                        </div>
-                    </div>
-                    <div className="services-list-7">
-                        <div className="service-container">
-                            <Service7 />
                         </div>
                     </div>
                 </div>

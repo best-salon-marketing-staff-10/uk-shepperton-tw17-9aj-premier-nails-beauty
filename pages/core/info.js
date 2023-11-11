@@ -1098,12 +1098,12 @@ const images = {
     service3 : "Manicure Shellac",
     service3Time : "40 mins",
     service3Price : "28",
-    service3Description : "Include nails trimming, shaping, buffing, cuticle grooming, color and lotion massage",
+    service3Description : "Include nails trimming, shaping, buffing, cuticle grooming, color and lotion massage. Add £2 more for extra layer for strengthening and lasting",
 
     service4 : "Pedicure Shellac",
     service4Time : "40 mins",
     service4Price : "40",
-    service4Description : "Include nails trimming, shaping, buffing, cuticle grooming, callus treatment, collagen mint scrub, color then hot towel wrap, and hot stone massage. Add £2 more for extra layer for strengthening and lasting",
+    service4Description : "Include nails trimming, shaping, buffing, cuticle grooming, callus treatment, collagen mint scrub, color then hot towel wrap, and hot stone massage.",
 
     service5 : "Gel Polish Manicure & Pedicure",
     service5Time : "1 hr 25 mins",
@@ -1151,12 +1151,12 @@ const images = {
     service1 : "Manicure with normal polish",
     service1Time : "30 mins",
     service1Price : "20",
-    service1Description : "A classic manicure is all you need to take great care of your hands and nails. Includes shaping, file, polish and moisturiser, cuticle, massage.",
+    service1Description : "A classic manicure is all you need to take great care of your hands and nails. Include nails trimming, shaping, buffing, cuticle grooming, original color and lotion massage.",
  
     service2 : "Pedicure with normal polish",
     service2Time : "40 mins",
     service2Price : "30",
-    service2Description : "A classic pedicure is all you need to take great care of your feet and nails. Includes scrub, dead skin, shape, file and polish, cuticle, moisturise, massage.",
+    service2Description : "A classic pedicure is all you need to take great care of your feet and nails. Include nails trimming, shaping, buffing, cuticle grooming, original color and lotion massage.",
     
     service3 : "Luxury Pedicure",
     service3Time : "40 mins",
@@ -1353,6 +1353,12 @@ const images = {
     service6Time: "45 mins",
     service6Price: "38",
     service6Description: "",
+
+    service7: "SNS with tip",
+    service7Time: "",
+    service7Price: "+£5",
+    service7Description: "",
+
   }; 
   const serviceList5 = {
     service1 : "Nail Design (from)",
@@ -1385,7 +1391,7 @@ const images = {
     service6Price : "5",
     service6Description : "",
 
-    service7 : "Take off Powder",
+    service7 : "Take off",
     service7Time : "20 mins",
     service7Price : "10",
     service7Description : "Just take off",

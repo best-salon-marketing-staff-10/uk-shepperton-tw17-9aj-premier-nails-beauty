@@ -37,32 +37,6 @@ export default function DesktopContent(){
                         </div>
                     </div>
                 </div>
-                    <div className="services-list-2">
-                        <div className="service-container">
-                        <div>
-                            <Service2 />
-                        </div>
-                        <div id="d-service-list-2">
-                            <Service2PriceList />
-                        </div>
-                        <div className="button">
-                            <Button3 />
-                        </div>
-                    </div>
-                </div>
-                <div className="services-list-3">
-                    <div className="service-container">
-                        <div>
-                            <Service3 />
-                        </div>
-                        <div id="d-service-list-3">
-                            <Service3PriceList />
-                        </div>
-                        <div className="button">
-                            <Button3 />
-                        </div>
-                    </div>
-                </div>
                 <div className="services-list-4">
                     <div className="service-container">
                         <div>
@@ -70,34 +44,6 @@ export default function DesktopContent(){
                         </div>
                         <div id="d-service-list-4">
                             <Service4PriceList />
-                        </div>
-                        <div className="button">
-                            <Button3 />
-                        </div>
-                    </div>
-                </div>
-                
-                <div className="services-list-5">
-                    <div className="service-container">
-                        <div>
-                            <Service5 />
-                        </div>
-                        <div id="d-service-list-5">
-                            <Service5PriceList />
-                        </div>
-                        <div className="button">
-                            <Button3 />
-                        </div>
-                    </div>
-                </div>
-                
-                <div className="services-list-6">
-                    <div className="service-container">
-                        <div>
-                            <Service6 />
-                        </div>
-                        <div id="d-service-list-6">
-                        <Service6PriceList />
                         </div>
                         <div className="button">
                             <Button3 />
@@ -117,6 +63,32 @@ export default function DesktopContent(){
                         </div>
                     </div>
                 </div>
+                <div className="services-list-3">
+                    <div className="service-container">
+                        <div>
+                            <Service3 />
+                        </div>
+                        <div id="d-service-list-3">
+                            <Service3PriceList />
+                        </div>
+                        <div className="button">
+                            <Button3 />
+                        </div>
+                    </div>
+                </div>
+                <div className="services-list-2">
+                    <div className="service-container">
+                        <div>
+                            <Service2 />
+                        </div>
+                        <div id="d-service-list-2">
+                            <Service2PriceList />
+                        </div>
+                        <div className="button">
+                            <Button3 />
+                        </div>
+                    </div>
+                </div>
                 <div className="services-list-8">
                     <div className="service-container">
                         <div>
@@ -124,6 +96,32 @@ export default function DesktopContent(){
                         </div>
                         <div id="d-service-list-8">
                         <Service8PriceList />
+                        </div>
+                        <div className="button">
+                            <Button3 />
+                        </div>
+                    </div>
+                </div>
+                <div className="services-list-5">
+                    <div className="service-container">
+                        <div>
+                            <Service5 />
+                        </div>
+                        <div id="d-service-list-5">
+                            <Service5PriceList />
+                        </div>
+                        <div className="button">
+                            <Button3 />
+                        </div>
+                    </div>
+                </div>
+                <div className="services-list-6">
+                    <div className="service-container">
+                        <div>
+                            <Service6 />
+                        </div>
+                        <div id="d-service-list-6">
+                        <Service6PriceList />
                         </div>
                         <div className="button">
                             <Button3 />
