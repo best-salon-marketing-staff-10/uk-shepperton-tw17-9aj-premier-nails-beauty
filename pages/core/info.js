@@ -146,7 +146,11 @@ const menu = {
 
   linkToMainMenu1: "/",
   linkToMainMenu2: "/about-us",
-  linkToMainMenu3: "/appointment",
+  linkToMainMenu3: `tel:${changedInfo.businessPhoneNumber}`,
+  /*
+  Giá trị cũ: linkToMainMenu3: "/appointment",
+  Vì tiệm bảo tạm bỏ app booking đi nên mới đổi thành như trên để gọi
+  */
   linkToMainMenu4: "/services",
   linkToMainMenu5: "/our-policy",
 }

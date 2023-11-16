@@ -10,38 +10,36 @@ import { pageContent } from '/pages/core/info';
 
 export default function Location(){
 
-    return(
-        <>
-            <div className="location">
-                <div className="location-image">
-                    <img alt={imageAlt.LocationImage1Alt} src={images.LocationImage1} />
+    return <>
+        <div className="location">
+            <div className="location-image">
+                <img alt={imageAlt.LocationImage1Alt} src={images.LocationImage1} />
+            </div>
+            <div className="location-text">
+                <h2 className="location-title">
+                    {pageContent.locationHeading}
+                </h2>
+                <div className="location-header">
+                    {changedInfo.businessAddressLevel2}
                 </div>
-                <div className="location-text">
-                    <h2 className="location-title">
-                        {pageContent.locationHeading}
-                    </h2>
-                    <div className="location-header">
-                        {changedInfo.businessAddressLevel2}
-                    </div>
+                <div className="location-description">
                     <div className="location-description">
-                        <div className="location-description">
-                            {changedInfo.businessAddressLevel1}
-                            <br />
-                            {changedInfo.businessAddressLevel2}
-                            <br />
-                            {changedInfo.businessPostCode}
-                        </div>
-                        <Link href={processedInfo.callBusiness}>
-                            <div className="phone-tiem">
-                                {changedInfo.businessPhoneNumber}
-                            </div>
-                        </Link>
+                        {changedInfo.businessAddressLevel1}
+                        <br />
+                        {changedInfo.businessAddressLevel2}
+                        <br />
+                        {changedInfo.businessPostCode}
                     </div>
-                </div>
-                <div className="button">
-                    <Button4 />
+                    <Link href={processedInfo.callBusiness} legacyBehavior>
+                        <div className="phone-tiem">
+                            {changedInfo.businessPhoneNumber}
+                        </div>
+                    </Link>
                 </div>
             </div>
-        </>
-    )
+            <div className="button">
+                <Button4 />
+            </div>
+        </div>
+    </>;
 }
