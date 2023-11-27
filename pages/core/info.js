@@ -349,11 +349,11 @@ const processedInfo = {
 
   //offer.js
   offerTitle: "Our Offers and Benefits",
-  offerDescription: "Free all cold drink and hot drink, chocolate, sweet or snack",
-  offerHeading: "Our offers:",
-  offerContent1: "✅10% for Student. ",
-  offerContent2: "✅Refer a friend to get 5 pounds voucher. ",
-  offerContent3: "✅Group from 3 people get 10% with the main treatment",
+  offerDescription: "Enjoy a fabulous 10% discount if you are a student or under 16 years old",
+  offerHeading: "How to Redeem Your Offer:",
+  offerContent1: "✅Simply walk-in or book an appointment ",
+  offerContent2: "✅Present your valid student ID or proof of age under 16 at the time of payment. ",
+  offerContent3: "✅Enjoy a stunning 10% discount on your chosen nail services!",
 }
 
 const headerInput = {
@@ -1148,6 +1148,11 @@ const images = {
     service12Time: "60 mins",
     service12Price: "30",
     service12Description: "",
+
+    service13: "Pedicure Shellac with French",
+    service13Time: "60 mins",
+    service13Price: "45",
+    service13Description: "",
 
   };
   

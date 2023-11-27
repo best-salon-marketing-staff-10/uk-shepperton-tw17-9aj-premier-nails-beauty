@@ -259,9 +259,7 @@
 
   /*Các list dịch vụ mà ko hiển thị
   */
-  .offers{
-    display: none;
-  }
+  
   /*Các list dịch vụ hiển thị cần phải cách nhau 1 khoảng
   và phải có khoảng cách với bên dưới
   */
