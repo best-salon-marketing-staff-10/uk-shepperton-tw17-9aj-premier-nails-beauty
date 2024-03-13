@@ -22,6 +22,7 @@ import Offers from '/pages/Components/offers/offers';
 import { imageAlt } from '/pages/core/info';
 import { pageContent } from '/pages/core/info';
 import { images } from '/pages/core/info';
+import { videos } from '/pages/core/info';
 import Carousel from 'react-bootstrap/Carousel';
 
 export default function MobileContent(){
@@ -86,6 +87,9 @@ export default function MobileContent(){
                 <div className="dong-vien-6">
                     <NhanManh3 />
                 </div>
+                <video width="100%" height="100%" autoPlay muted loop controls playsInline preload="auto">
+                    <source src={videos.mobileHomepageVideo1} type="video/mp4" />
+                </video>
                 <div className="dong-vien-7">
                     <NhanManh4 />
                 </div>

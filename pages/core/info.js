@@ -115,7 +115,7 @@ const changedInfo = {
   businessWebsite: "https://premier-nails-beauty.web.app",
 
   linkBookingMap: "",
-  linkBookingApp: "https://bit.ly/47poiJN",
+  linkBookingApp: "https://bit.ly/3V9InB9",
   linkToMap: "https://maps.app.goo.gl/xrD6jKJUyMr6cPfG9",
 
   
@@ -146,7 +146,7 @@ const menu = {
 
   linkToMainMenu1: "/",
   linkToMainMenu2: "/about-us",
-  linkToMainMenu3: `tel:${changedInfo.businessPhoneNumber}`,
+  linkToMainMenu3: "/appointment",
   /*
   Giá trị cũ: linkToMainMenu3: "/appointment",
   Vì tiệm bảo tạm bỏ app booking đi nên mới đổi thành như trên để gọi
@@ -870,7 +870,9 @@ const images = {
   //Phần này có thể chuyển sang chỗ khác
 }
 
-
+const videos ={
+  mobileHomepageVideo1: "/videos/video-1.mp4",
+}
 
     
   
@@ -1622,6 +1624,7 @@ const images = {
   export { changedInfo };
   export { processedInfo };
   export { images };
+  export { videos };
   export { imageAlt };
   export { processedBusinessOpeningTime };
   export { headerInput };
