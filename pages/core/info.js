@@ -397,10 +397,10 @@ const schemaInput = {
   schemaImage8: "/images/gel-nails-shellac-nails-3.jpg",
   schemaImage9: "/images/gel-nails-shellac-nails-4.jpg",
   schemaImage10: "/images/gel-nails-shellac-nails-5.jpg",
-  schemaImage11: "/images/nail-design-1.jpg",
+  schemaImage11: "/images/nail-design-1-1.jpg",
   schemaImage12: "/images/nail-design-2.jpg",
   schemaImage13: "/images/nail-design-3.jpg",
-  schemaImage14: "/images/nail-design-4.jpg",
+  schemaImage14: "/images/nail-design-4-1.jpg",
   schemaImage15: "/images/nail-design-5.jpg",
   schemaImage16: "/images/pedicure-1.jpg",
   schemaImage17: "/images/pedicure-2.jpg",
@@ -761,18 +761,18 @@ const images = {
   desktopCarouselImage2: "/images/desktop-nail-salon-happy-customer-2.jpg",
   desktopCarouselImage3: "/images/desktop-nail-salon-happy-customer-3.jpg",
       //Ảnh ở Homepage khi vuốt xuống
-  section5Image1: "/images/nail-extension-1.jpg",
+  section5Image1: "/images/nail-extension-1-1.jpg",
 
   section6Image1: "/images/nail-extension-2.jpg",
 
-  section7Image1: "/images/nail-extension-3.jpg",
+  section7Image1: "/images/nail-extension-3-1.jpg",
   section7Image2: "/images/nail-extension-4.jpg",
 
   LocationImage1: "/images/nail-extension-11.jpg",
 
   serviceList1Image1: "/images/nail-extension-5.jpg",
-  serviceList1Image2: "/images/nail-extension-6.jpg",
-  serviceList1Image3: "/images/nail-extension-7.jpg",
+  serviceList1Image2: "/images/nail-extension-6-1.jpg",
+  serviceList1Image3: "/images/nail-extension-7-1.jpg",
   serviceList1Image4: "/images/nail-extension-8.jpg",
   serviceList1Image5: "/images/nail-extension-9.jpg",
 
@@ -788,16 +788,16 @@ const images = {
   serviceList3Image4: "/images/pedicure-4.jpg",
   serviceList3Image5: "/images/pedicure-5.jpg",
 
-  serviceList4Image1: "/images/nail-extension-20.jpg",
-  serviceList4Image2: "/images/nail-extension-7.jpg",
+  serviceList4Image1: "/images/nail-extension-20-1.jpg",
+  serviceList4Image2: "/images/nail-extension-7-1.jpg",
   serviceList4Image3: "/images/gel-nails-shellac-nails-4.jpg",
   serviceList4Image4: "/images/",
   serviceList4Image5: "/images/hair-wash-5.jpg",
 
-  serviceList5Image1: "/images/nail-design-1.jpg",
+  serviceList5Image1: "/images/nail-design-1-1.jpg",
   serviceList5Image2: "/images/nail-design-2.jpg",
   serviceList5Image3: "/images/nail-design-3.jpg",
-  serviceList5Image4: "/images/nail-design-4.jpg",
+  serviceList5Image4: "/images/nail-design-4-1.jpg",
   serviceList5Image5: "/images/nail-design-5.jpg",
 
   serviceList6Image1: "/images/beauty-1.jpg",
@@ -837,9 +837,9 @@ const images = {
   desktopAboutUsDongVienImage3: "/images/nail-extension-17.jpg",
 
     //Ảnh cho phần động viên
-  section1Image1: "/images/nail-extension-18.jpg",
-  section2Image1: "/images/nail-extension-19.jpg",
-  section3Image1: "/images/nail-extension-20.jpg",
+  section1Image1: "/images/nail-extension-18-1.jpg",
+  section2Image1: "/images/nail-extension-19-1.jpg",
+  section3Image1: "/images/nail-extension-20-1.jpg",
 
   //Thanh Mobile Bottom Nav
   BottomNavButton1Icon: "/images/icons/icon-home.png",
