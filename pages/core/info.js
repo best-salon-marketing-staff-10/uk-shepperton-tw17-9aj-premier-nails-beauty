@@ -387,9 +387,9 @@ const schemaInput = {
   schemaPostalCode: changedInfo.businessPostCode,
   schemaAddressCountry: changedInfo.businessGeoRegionCode,
 
-  schemaImage1: "/images/nail-extension-1.jpg",
+  schemaImage1: "/images/nail-extension-1-2.jpg",
   schemaImage2: "/images/nail-extension-2.jpg",
-  schemaImage3: "/images/nail-extension-3.jpg",
+  schemaImage3: "/images/nail-extension-3-1.jpg",
   schemaImage4: "/images/nail-extension-4.jpg",
   schemaImage5: "/images/nail-extension-5.jpg",
   schemaImage6: "/images/gel-nails-shellac-nails-1.jpg",
@@ -761,14 +761,14 @@ const images = {
   desktopCarouselImage2: "/images/desktop-nail-salon-happy-customer-2.jpg",
   desktopCarouselImage3: "/images/desktop-nail-salon-happy-customer-3.jpg",
       //Ảnh ở Homepage khi vuốt xuống
-  section5Image1: "/images/nail-extension-1-1.jpg",
+  section5Image1: "/images/nail-extension-1-2.jpg",
 
   section6Image1: "/images/nail-extension-2.jpg",
 
   section7Image1: "/images/nail-extension-3-1.jpg",
   section7Image2: "/images/nail-extension-4.jpg",
 
-  LocationImage1: "/images/nail-extension-11.jpg",
+  LocationImage1: "/images/nail-extension-11-1.jpg",
 
   serviceList1Image1: "/images/nail-extension-5.jpg",
   serviceList1Image2: "/images/nail-extension-6-1.jpg",
