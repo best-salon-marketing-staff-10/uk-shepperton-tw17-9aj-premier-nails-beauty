@@ -115,7 +115,7 @@ const changedInfo = {
   businessWebsite: "https://premier-nails-beauty.web.app",
 
   linkBookingMap: "",
-  linkBookingApp: "https://joybookings.com/premiernailsandbeauty/booking",
+  linkBookingApp: "https://bit.ly/3V9InB9",
   linkToMap: "https://maps.app.goo.gl/xrD6jKJUyMr6cPfG9",
 
   

@@ -12,7 +12,7 @@ export default function Offers(){
                                 {processedInfo.offerTitle}
                             </h1>
                             <div className="offers-divider">
-                                <NavDropdown.Divider /> 
+                                
                             </div>
                         </div>
                     <div className="offers-description">
